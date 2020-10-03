@@ -1,0 +1,120 @@
+fileFormatVersion: 2
+guid: 9e777360d902a394ab77ee4d1b2088f5
+timeCreated: 1463049790
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: csovek_oldal
+    100002: //RootNode
+    100004: felso_cube
+    100006: felsoszelozzok_misc
+    100008: felsoszelozzok_misc_MeshPart0
+    100010: felsoszelozzok_misc_MeshPart1
+    100012: homlokzat_oszlopok
+    100014: kisablakok
+    100016: mainbox
+    100018: oszlopok_talap
+    100020: triablakok
+    400000: csovek_oldal
+    400002: //RootNode
+    400004: felso_cube
+    400006: felsoszelozzok_misc
+    400008: felsoszelozzok_misc_MeshPart0
+    400010: felsoszelozzok_misc_MeshPart1
+    400012: homlokzat_oszlopok
+    400014: kisablakok
+    400016: mainbox
+    400018: oszlopok_talap
+    400020: triablakok
+    2300000: csovek_oldal
+    2300002: felso_cube
+    2300004: felsoszelozzok_misc_MeshPart0
+    2300006: felsoszelozzok_misc_MeshPart1
+    2300008: homlokzat_oszlopok
+    2300010: kisablakok
+    2300012: mainbox
+    2300014: oszlopok_talap
+    2300016: triablakok
+    3300000: csovek_oldal
+    3300002: felso_cube
+    3300004: felsoszelozzok_misc_MeshPart0
+    3300006: felsoszelozzok_misc_MeshPart1
+    3300008: homlokzat_oszlopok
+    3300010: kisablakok
+    3300012: mainbox
+    3300014: oszlopok_talap
+    3300016: triablakok
+    4300000: mainbox
+    4300002: felso_cube
+    4300004: csovek_oldal
+    4300006: homlokzat_oszlopok
+    4300008: oszlopok_talap
+    4300010: triablakok
+    4300012: kisablakok
+    4300014: felsoszelozzok_misc_MeshPart0
+    4300016: felsoszelozzok_misc_MeshPart1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 02b39620df13aae4d9fc9ef821ac8f71
+timeCreated: 1464893350
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ATM
+    100002: Cables
+    100004: //RootNode
+    100006: Frontex circle
+    100008: Frontex line
+    100010: Frontex star00
+    100012: Frontex star01
+    100014: Frontex star02
+    100016: Frontex star03
+    100018: Frontex star04
+    100020: Frontex star05
+    100022: Frontex star06
+    100024: Frontex star07
+    100026: Frontex star08
+    100028: Frontex star09
+    100030: Frontex star10
+    100032: Frontex star11
+    100034: Frontex star12
+    100036: Heartbody
+    100038: Heartmain
+    100040: Heartmain Bones00
+    100042: Heartmain Bones01
+    100044: Heartmain Bones02
+    100046: Heartmain Bones03
+    100048: Heartmain Chain
+    100050: Heartmain Point01
+    100052: Heartmain Point02
+    100054: Heartmain Point03
+    100056: Heartmain Point04
+    100058: IK Chain003
+    100060: Map
+    100062: SplineIKNode001
+    400000: ATM
+    400002: Cables
+    400004: //RootNode
+    400006: Frontex circle
+    400008: Frontex line
+    400010: Frontex star00
+    400012: Frontex star01
+    400014: Frontex star02
+    400016: Frontex star03
+    400018: Frontex star04
+    400020: Frontex star05
+    400022: Frontex star06
+    400024: Frontex star07
+    400026: Frontex star08
+    400028: Frontex star09
+    400030: Frontex star10
+    400032: Frontex star11
+    400034: Frontex star12
+    400036: Heartbody
+    400038: Heartmain
+    400040: Heartmain Bones00
+    400042: Heartmain Bones01
+    400044: Heartmain Bones02
+    400046: Heartmain Bones03
+    400048: Heartmain Chain
+    400050: Heartmain Point01
+    400052: Heartmain Point02
+    400054: Heartmain Point03
+    400056: Heartmain Point04
+    400058: IK Chain003
+    400060: Map
+    400062: SplineIKNode001
+    2300000: ATM
+    2300002: Cables
+    2300004: Frontex circle
+    2300006: Frontex line
+    2300008: Frontex star00
+    2300010: Frontex star01
+    2300012: Frontex star02
+    2300014: Frontex star03
+    2300016: Frontex star04
+    2300018: Frontex star05
+    2300020: Frontex star06
+    2300022: Frontex star07
+    2300024: Frontex star08
+    2300026: Frontex star09
+    2300028: Frontex star10
+    2300030: Frontex star11
+    2300032: Heartbody
+    2300034: Map
+    3300000: ATM
+    3300002: Cables
+    3300004: Frontex circle
+    3300006: Frontex line
+    3300008: Frontex star00
+    3300010: Frontex star01
+    3300012: Frontex star02
+    3300014: Frontex star03
+    3300016: Frontex star04
+    3300018: Frontex star05
+    3300020: Frontex star06
+    3300022: Frontex star07
+    3300024: Frontex star08
+    3300026: Frontex star09
+    3300028: Frontex star10
+    3300030: Frontex star11
+    3300032: Heartbody
+    3300034: Map
+    4300000: Frontex line
+    4300002: Frontex circle
+    4300004: Frontex star11
+    4300006: Frontex star10
+    4300008: Frontex star09
+    4300010: Frontex star08
+    4300012: Frontex star07
+    4300014: Frontex star06
+    4300016: Frontex star05
+    4300018: Frontex star04
+    4300020: Frontex star03
+    4300022: Frontex star02
+    4300024: Frontex star01
+    4300026: Frontex star00
+    4300028: Heartbody
+    4300030: Cables
+    4300032: Heartmain
+    4300034: ATM
+    4300036: Map
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Heartmain
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

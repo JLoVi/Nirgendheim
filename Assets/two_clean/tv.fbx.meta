@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: 6d9e421cba36f11458b057ee9f5dadf6
+timeCreated: 1449482323
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: AI34_005_1034
+    100002: AI34_005_187
+    100004: AI34_005_464
+    100006: AI34_005_465
+    100008: AI34_005_505
+    100010: AI34_005_506
+    100012: AI34_005_507
+    100014: AI34_005_508
+    100016: AI34_005_509
+    100018: AI34_005_510
+    100020: AI34_005_511
+    100022: AI34_005_512
+    100024: AI34_005_513
+    100026: AI34_005_514
+    100028: AI34_005_515
+    100030: AI34_005_838
+    100032: AI34_005_839
+    100034: AI34_005_840
+    100036: AI34_005_840_MeshPart0
+    100038: AI34_005_840_MeshPart1
+    100040: AI34_005_840_MeshPart2
+    100042: AI34_005_840_MeshPart3
+    100044: AI34_005_840_MeshPart4
+    100046: AI34_005_841
+    100048: AI34_005_841_MeshPart0
+    100050: AI34_005_841_MeshPart1
+    100052: //RootNode
+    400000: AI34_005_1034
+    400002: AI34_005_187
+    400004: AI34_005_464
+    400006: AI34_005_465
+    400008: AI34_005_505
+    400010: AI34_005_506
+    400012: AI34_005_507
+    400014: AI34_005_508
+    400016: AI34_005_509
+    400018: AI34_005_510
+    400020: AI34_005_511
+    400022: AI34_005_512
+    400024: AI34_005_513
+    400026: AI34_005_514
+    400028: AI34_005_515
+    400030: AI34_005_838
+    400032: AI34_005_839
+    400034: AI34_005_840
+    400036: AI34_005_840_MeshPart0
+    400038: AI34_005_840_MeshPart1
+    400040: AI34_005_840_MeshPart2
+    400042: AI34_005_840_MeshPart3
+    400044: AI34_005_840_MeshPart4
+    400046: AI34_005_841
+    400048: AI34_005_841_MeshPart0
+    400050: AI34_005_841_MeshPart1
+    400052: //RootNode
+    2300000: AI34_005_1034
+    2300002: AI34_005_187
+    2300004: AI34_005_464
+    2300006: AI34_005_465
+    2300008: AI34_005_506
+    2300010: AI34_005_507
+    2300012: AI34_005_508
+    2300014: AI34_005_509
+    2300016: AI34_005_510
+    2300018: AI34_005_511
+    2300020: AI34_005_512
+    2300022: AI34_005_513
+    2300024: AI34_005_514
+    2300026: AI34_005_515
+    2300028: AI34_005_838
+    2300030: AI34_005_839
+    2300032: AI34_005_840_MeshPart0
+    2300034: AI34_005_840_MeshPart1
+    2300036: AI34_005_840_MeshPart2
+    2300038: AI34_005_840_MeshPart3
+    2300040: AI34_005_840_MeshPart4
+    2300042: AI34_005_841_MeshPart0
+    2300044: AI34_005_841_MeshPart1
+    3300000: AI34_005_1034
+    3300002: AI34_005_187
+    3300004: AI34_005_464
+    3300006: AI34_005_465
+    3300008: AI34_005_506
+    3300010: AI34_005_507
+    3300012: AI34_005_508
+    3300014: AI34_005_509
+    3300016: AI34_005_510
+    3300018: AI34_005_511
+    3300020: AI34_005_512
+    3300022: AI34_005_513
+    3300024: AI34_005_514
+    3300026: AI34_005_515
+    3300028: AI34_005_838
+    3300030: AI34_005_839
+    3300032: AI34_005_840_MeshPart0
+    3300034: AI34_005_840_MeshPart1
+    3300036: AI34_005_840_MeshPart2
+    3300038: AI34_005_840_MeshPart3
+    3300040: AI34_005_840_MeshPart4
+    3300042: AI34_005_841_MeshPart0
+    3300044: AI34_005_841_MeshPart1
+    4300000: AI34_005_506
+    4300002: AI34_005_507
+    4300004: AI34_005_508
+    4300006: AI34_005_509
+    4300008: AI34_005_510
+    4300010: AI34_005_511
+    4300012: AI34_005_512
+    4300014: AI34_005_513
+    4300016: AI34_005_514
+    4300018: AI34_005_515
+    4300020: AI34_005_187
+    4300022: AI34_005_1034
+    4300024: AI34_005_464
+    4300026: AI34_005_465
+    4300028: AI34_005_838
+    4300030: AI34_005_839
+    4300032: AI34_005_840_MeshPart0
+    4300034: AI34_005_840_MeshPart1
+    4300036: AI34_005_840_MeshPart2
+    4300038: AI34_005_840_MeshPart3
+    4300040: AI34_005_840_MeshPart4
+    4300042: AI34_005_841_MeshPart0
+    4300044: AI34_005_841_MeshPart1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

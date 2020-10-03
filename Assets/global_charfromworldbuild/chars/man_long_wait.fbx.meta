@@ -1,0 +1,731 @@
+fileFormatVersion: 2
+guid: e5a784b6cb2abbd4d99b8e27f4b255e5
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: _mocap_emo0001_MStand_Wait_L_bvh_grp
+    100002: Chest
+    100004: Chest2
+    100006: CMan0005_St:cman0005_wa_layer1
+    100008: Head
+    100010: Head_End
+    100012: Hips
+    100014: LeftAnkle
+    100016: LeftAnkle_End
+    100018: LeftCollar
+    100020: LeftElbow
+    100022: LeftHip
+    100024: LeftKnee
+    100026: LeftShoulder
+    100028: LeftWrist
+    100030: LeftWrist_End
+    100032: //RootNode
+    100034: Neck
+    100036: RightAnkle
+    100038: RightAnkle_End
+    100040: RightCollar
+    100042: RightElbow
+    100044: RightHip
+    100046: RightKnee
+    100048: RightShoulder
+    100050: RightWrist
+    100052: RightWrist_End
+    400000: _mocap_emo0001_MStand_Wait_L_bvh_grp
+    400002: Chest
+    400004: Chest2
+    400006: CMan0005_St:cman0005_wa_layer1
+    400008: Head
+    400010: Head_End
+    400012: Hips
+    400014: LeftAnkle
+    400016: LeftAnkle_End
+    400018: LeftCollar
+    400020: LeftElbow
+    400022: LeftHip
+    400024: LeftKnee
+    400026: LeftShoulder
+    400028: LeftWrist
+    400030: LeftWrist_End
+    400032: //RootNode
+    400034: Neck
+    400036: RightAnkle
+    400038: RightAnkle_End
+    400040: RightCollar
+    400042: RightElbow
+    400044: RightHip
+    400046: RightKnee
+    400048: RightShoulder
+    400050: RightWrist
+    400052: RightWrist_End
+    4300000: CMan0005_St:cman0005_wa_layer1
+    7400000: Take 001
+    7400002: Take 002
+    7400004: Take 003
+    7400006: Take 004
+    9500000: //RootNode
+    13700000: CMan0005_St:cman0005_wa_layer1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    pivotNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/Neck
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/Neck/Head
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/Neck/Head/Head_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow/RightWrist/RightWrist_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip/LeftKnee
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip/RightKnee
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip/RightKnee/RightAnkle/RightAnkle_End
+        weight: 1
+      - path: CMan0005_St:cman0005_wa_layer1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take 002
+      takeName: Take 001
+      firstFrame: 122
+      lastFrame: 239
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/Neck
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/Neck/Head
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/Neck/Head/Head_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow/RightWrist/RightWrist_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip/LeftKnee
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip/RightKnee
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip/RightKnee/RightAnkle/RightAnkle_End
+        weight: 1
+      - path: CMan0005_St:cman0005_wa_layer1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take 003
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 354
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/Neck
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/Neck/Head
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/Neck/Head/Head_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow/RightWrist/RightWrist_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip/LeftKnee
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip/RightKnee
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip/RightKnee/RightAnkle/RightAnkle_End
+        weight: 1
+      - path: CMan0005_St:cman0005_wa_layer1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Take 004
+      takeName: Take 001
+      firstFrame: 359
+      lastFrame: 500
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow/LeftWrist
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/LeftCollar/LeftShoulder/LeftElbow/LeftWrist/LeftWrist_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/Neck
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/Neck/Head
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/Neck/Head/Head_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow/RightWrist
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/Chest/Chest2/RightCollar/RightShoulder/RightElbow/RightWrist/RightWrist_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip/LeftKnee
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip/LeftKnee/LeftAnkle
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/LeftHip/LeftKnee/LeftAnkle/LeftAnkle_End
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip/RightKnee
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip/RightKnee/RightAnkle
+        weight: 1
+      - path: _mocap_emo0001_MStand_Wait_L_bvh_grp/Hips/RightHip/RightKnee/RightAnkle/RightAnkle_End
+        weight: 1
+      - path: CMan0005_St:cman0005_wa_layer1
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftHip
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightHip
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftKnee
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightKnee
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftAnkle
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightAnkle
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Chest2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftCollar
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightCollar
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftShoulder
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightShoulder
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftElbow
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightElbow
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: LeftWrist
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: RightWrist
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: man_long_wait(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: _mocap_emo0001_MStand_Wait_L_bvh_grp
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Hips
+      position: {x: 0, y: .383931994, z: 0}
+      rotation: {x: -.178988174, y: -.0151411621, z: .0507615767, w: .9824242}
+      scale: {x: 1, y: .999999881, z: 1.00000024}
+      transformModified: 1
+    - name: Chest
+      position: {x: -0, y: .0457000025, z: 0}
+      rotation: {x: .092754744, y: .00667772442, z: -.033077538, w: .995117068}
+      scale: {x: 1.00000012, y: 1.00000024, z: .99999994}
+      transformModified: 1
+    - name: Chest2
+      position: {x: -0, y: .065700002, z: 0}
+      rotation: {x: .184613943, y: .0132909399, z: -.0718848109, w: .980088651}
+      scale: {x: .999999762, y: .999999762, z: .999999702}
+      transformModified: 1
+    - name: LeftCollar
+      position: {x: -.0105999988, y: .0419000015, z: .0175999999}
+      rotation: {x: -7.45057918e-08, y: -4.65661181e-08, z: -.0871556923, w: .99619472}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000036}
+      transformModified: 1
+    - name: LeftShoulder
+      position: {x: -.0580999963, y: 0, z: 0}
+      rotation: {x: .171698824, y: .245694101, z: -.562115669, w: .770830691}
+      scale: {x: .999999762, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: LeftElbow
+      position: {x: -0, y: -.120799996, z: 0}
+      rotation: {x: -.0134578152, y: -.0606284216, z: -.0142631857, w: .99796778}
+      scale: {x: 1.00000048, y: .99999994, z: 1}
+      transformModified: 1
+    - name: LeftWrist
+      position: {x: -0, y: -.0981999934, z: 0}
+      rotation: {x: -.37546137, y: .0313246809, z: .51940316, w: .76698631}
+      scale: {x: .999999881, y: 1, z: .999999762}
+      transformModified: 1
+    - name: LeftWrist_End
+      position: {x: -.00999999978, y: 0, z: 0}
+      rotation: {x: -2.98023153e-08, y: 5.72763241e-08, z: -1.49011576e-08, w: 1}
+      scale: {x: 1.00000024, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: RightCollar
+      position: {x: .0105999988, y: .0419000015, z: .0175999999}
+      rotation: {x: 0, y: -1.3038516e-08, z: .0871557593, w: .99619478}
+      scale: {x: .99999994, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: RightShoulder
+      position: {x: .0605999976, y: 0, z: 0}
+      rotation: {x: -.116653234, y: .129938737, z: .663642704, w: .727383256}
+      scale: {x: 1.00000024, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: RightElbow
+      position: {x: -0, y: -.110799998, z: 0}
+      rotation: {x: -.01721517, y: -.290803581, z: .00312177977, w: .956622839}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: RightWrist
+      position: {x: -0, y: -.0981999934, z: 0}
+      rotation: {x: .281261146, y: -.00323876506, z: .609474242, w: .741230667}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: RightWrist_End
+      position: {x: -.00999999978, y: 0, z: 0}
+      rotation: {x: 5.96046235e-08, y: 1.04308093e-07, z: -1.49011559e-08, w: 1}
+      scale: {x: .999999881, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: Neck
+      position: {x: -0, y: .0405000001, z: 0}
+      rotation: {x: -.0102540841, y: .148152083, z: .0425381586, w: .987996101}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: Head
+      position: {x: -0, y: .0518999994, z: 0}
+      rotation: {x: .00289064576, y: .137966096, z: .0827929825, w: .986966252}
+      scale: {x: 1.00000048, y: .999999762, z: 1.00000024}
+      transformModified: 1
+    - name: Head_End
+      position: {x: -.00999999978, y: 0, z: 0}
+      rotation: {x: 0, y: -1.37835713e-07, z: -2.98023153e-08, w: 1}
+      scale: {x: .999999642, y: 1, z: .99999994}
+      transformModified: 1
+    - name: LeftHip
+      position: {x: -.0342999995, y: 0, z: 0}
+      rotation: {x: .0460464433, y: -.112821974, z: -.111686938, w: .986243844}
+      scale: {x: 1, y: 1, z: .999999821}
+      transformModified: 1
+    - name: LeftKnee
+      position: {x: -0, y: -.184699982, z: 0}
+      rotation: {x: .294707805, y: -.0559998937, z: -.0106708808, w: .953885436}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: LeftAnkle
+      position: {x: -0, y: -.179499999, z: 0}
+      rotation: {x: -.121277317, y: .745568812, z: -.0168659464, w: .655083656}
+      scale: {x: .999999881, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: LeftAnkle_End
+      position: {x: -.00999999978, y: 0, z: 0}
+      rotation: {x: -7.4505806e-09, y: 3.78349796e-10, z: 1.39698386e-08, w: 1}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: RightHip
+      position: {x: .0342999995, y: 0, z: 0}
+      rotation: {x: .0648903549, y: .0488244593, z: -.0525052361, w: .995313346}
+      scale: {x: 1, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: RightKnee
+      position: {x: -0, y: -.184699982, z: 0}
+      rotation: {x: .249626622, y: -.050131876, z: .0167846903, w: .966898024}
+      scale: {x: .999999821, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: RightAnkle
+      position: {x: -0, y: -.179499999, z: 0}
+      rotation: {x: -.119840436, y: .64608568, z: -.0156629477, w: .753635347}
+      scale: {x: 1, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: RightAnkle_End
+      position: {x: -.00999999978, y: 0, z: 0}
+      rotation: {x: 0, y: -3.00351459e-08, z: -3.72528941e-09, w: 1}
+      scale: {x: .999999821, y: 1, z: .999999821}
+      transformModified: 1
+    - name: CMan0005_St:cman0005_wa_layer1
+      position: {x: -.130287886, y: 1.110223e-18, z: 0}
+      rotation: {x: -.050753314, y: -.519360006, z: -.0154350922, w: .852907419}
+      scale: {x: 37.8162537, y: 37.8162575, z: 37.8162613}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
+  assetBundleName: 

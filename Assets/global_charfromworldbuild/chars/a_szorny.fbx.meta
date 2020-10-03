@@ -1,0 +1,1928 @@
+fileFormatVersion: 2
+guid: 495e4f1af83dac04fb84b8faffc8351d
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ember1
+    100004: extrudedSurface1
+    100006: extrudedSurface1_MeshPart0
+    100008: extrudedSurface1_MeshPart1
+    100010: extrudedSurface1_MeshPart2
+    100012: extrudedSurface1_MeshPart3
+    100014: extrudedSurface1_MeshPart4
+    100016: group1
+    100018: head1_AttributesConnectToUpperBody
+    100020: head1_Buffer
+    100022: head1_cluster1Handle
+    100024: head1_cluster2Handle
+    100026: head1_Control
+    100028: head1_head
+    100030: head1_neck
+    100032: head1_neckAWUPAimer
+    100034: head1_neckAWUPLean
+    100036: head1_neckAWUPTwist
+    100038: head1_neckAWUPUnTwist
+    100040: head1_neckBuffer
+    100042: head1_neckControl
+    100044: head1_neckSpace
+    100046: head1_ParentConstrain
+    100048: head1_ParentToUpperBody
+    100050: head1_ParentToWorld
+    100052: head1_RotateToIsolate
+    100054: head1_rotIsolate
+    100056: leftArm1_aim22
+    100058: leftArm1_aimtargetReName
+    100060: leftArm1_aimWithoutUpVector2_aim
+    100062: leftArm1_aimWithoutUpVector2_aim1
+    100064: leftArm1_aimWithoutUpVector2_lean
+    100066: leftArm1_aimWithoutUpVector2_twist
+    100068: leftArm1_aimWithoutUpVector_2untwist
+    100070: leftArm1_aimWithoutUpVector_lean
+    100072: leftArm1_aimWithoutUpVector_twist
+    100074: leftArm1_aimWithoutUpVector_untwist
+    100076: leftArm1_ArmArrowDeform
+    100078: leftArm1_ArmIKBuffer
+    100080: leftArm1_ArmIKControl
+    100082: leftArm1_ArmIKElbowBuffer
+    100084: leftArm1_ArmIKElbowControl
+    100086: leftArm1_ArmIKHandle
+    100088: leftArm1_ArmPoleVector
+    100090: leftArm1_arrowheadbuffer
+    100092: leftArm1_AttributesConnectToUpperBody
+    100094: leftArm1_ClavicalBuffer
+    100096: leftArm1_ClavicalControl
+    100098: leftArm1_cluster5Handle
+    100100: leftArm1_distanceDimension5
+    100102: leftArm1_HandBuffer
+    100104: leftArm1_HandControl
+    100106: leftArm1_HiResClavical
+    100108: leftArm1_HiResHand
+    100110: leftArm1_HiResLowerArm
+    100112: leftArm1_HiResLowerArmTwist
+    100114: leftArm1_HiResUpperArm
+    100116: leftArm1_HiResUpperArmTwist
+    100118: leftArm1_locator1
+    100120: leftArm1_locator2
+    100122: leftArm1_LowerArmBuffer
+    100124: leftArm1_LowerArmControl
+    100126: leftArm1_movearrow
+    100128: leftArm1_movearrowhead
+    100130: leftArm1_ParentConstrain
+    100132: leftArm1_ParentToUpperBody
+    100134: leftArm1_ParentToWorldNull
+    100136: leftArm1_Rig_Clavical
+    100138: leftArm1_Rig_Hand
+    100140: leftArm1_Rig_LowerArm
+    100142: leftArm1_Rig_UpperArm
+    100144: leftArm1_Rigging
+    100146: leftArm1_RigJoints
+    100148: leftArm1_scalearrowbottom
+    100150: leftArm1_scalearrowhead
+    100152: leftArm1_stretchValues
+    100154: leftArm1_UpperArmBuffer
+    100156: leftArm1_UpperArmControl
+    100158: leftArm1_UpperArmRotationIsolated
+    100160: leftArm1_UpperArmRotationUnisolated
+    100162: leftFinger1_AttributesConnectToUpperBody
+    100164: leftFinger1_cluster1Handle
+    100166: leftFinger1_Control
+    100168: leftFinger1_ControlBuffer
+    100170: leftFinger1_controlScale
+    100172: leftFinger1_Joint1
+    100174: leftFinger1_Joint2
+    100176: leftFinger1_Joint3
+    100178: leftFinger1_MetaCarpel
+    100180: leftFinger1_ParentConstrain
+    100182: leftFinger1_ParentToWorld
+    100184: leftFinger1_rig
+    100186: leftFinger1_upVector
+    100188: leftFinger2_AttributesConnectToUpperBody
+    100190: leftFinger2_cluster1Handle
+    100192: leftFinger2_Control
+    100194: leftFinger2_ControlBuffer
+    100196: leftFinger2_controlScale
+    100198: leftFinger2_Joint1
+    100200: leftFinger2_Joint2
+    100202: leftFinger2_Joint3
+    100204: leftFinger2_MetaCarpel
+    100206: leftFinger2_ParentConstrain
+    100208: leftFinger2_ParentToWorld
+    100210: leftFinger2_rig
+    100212: leftFinger2_upVector
+    100214: leftFinger3_AttributesConnectToUpperBody
+    100216: leftFinger3_cluster1Handle
+    100218: leftFinger3_Control
+    100220: leftFinger3_ControlBuffer
+    100222: leftFinger3_controlScale
+    100224: leftFinger3_Joint1
+    100226: leftFinger3_Joint2
+    100228: leftFinger3_Joint3
+    100230: leftFinger3_MetaCarpel
+    100232: leftFinger3_ParentConstrain
+    100234: leftFinger3_ParentToWorld
+    100236: leftFinger3_rig
+    100238: leftFinger3_upVector
+    100240: leftFinger4_AttributesConnectToUpperBody
+    100242: leftFinger4_cluster1Handle
+    100244: leftFinger4_Control
+    100246: leftFinger4_ControlBuffer
+    100248: leftFinger4_controlScale
+    100250: leftFinger4_Joint1
+    100252: leftFinger4_Joint2
+    100254: leftFinger4_Joint3
+    100256: leftFinger4_MetaCarpel
+    100258: leftFinger4_ParentConstrain
+    100260: leftFinger4_ParentToWorld
+    100262: leftFinger4_rig
+    100264: leftFinger4_upVector
+    100266: leftLeg1_arrowClusters
+    100268: leftLeg1_AttributesConnectToUpperBody
+    100270: leftLeg1_AWUPAim
+    100272: leftLeg1_AWUPLean
+    100274: leftLeg1_AWUPTwist
+    100276: leftLeg1_AWUPUnTwist
+    100278: leftLeg1_cluster2Handle
+    100280: leftLeg1_cluster3Handle
+    100282: leftLeg1_cluster4Handle
+    100284: leftLeg1_distanceDimension1
+    100286: leftLeg1_DistanceMeasure1
+    100288: leftLeg1_DistanceMeasure2
+    100290: leftLeg1_FootArrowPoleVector
+    100292: leftLeg1_FootBuffer
+    100294: leftLeg1_FootControl
+    100296: leftLeg1_footControlSizer
+    100298: leftLeg1_FootIK
+    100300: leftLeg1_FootIKPoleVector
+    100302: leftLeg1_HeelRaiser
+    100304: leftLeg1_highResJointAimer
+    100306: leftLeg1_hipTwistAimer
+    100308: leftLeg1_hipUpVect1
+    100310: leftLeg1_hipUpVect2
+    100312: leftLeg1_HiResFoot
+    100314: leftLeg1_HiResLowerLeg
+    100316: leftLeg1_HiResLowerLegTwist
+    100318: leftLeg1_HiResToe
+    100320: leftLeg1_HiResUpperLeg
+    100322: leftLeg1_HiResUpperLegTwist
+    100324: leftLeg1_IKHeelControl
+    100326: leftLeg1_IKSwitchToePlacer
+    100328: leftLeg1_KneeAimer
+    100330: leftLeg1_KneeBuffer
+    100332: leftLeg1_KneeCorrectForWindget
+    100334: leftLeg1_KneeFixPosition
+    100336: leftLeg1_KneeRotateXtra
+    100338: leftLeg1_LegIKAimed
+    100340: leftLeg1_LegIKBuffer
+    100342: leftLeg1_LegIKControl
+    100344: leftLeg1_LegIKKneeControl
+    100346: leftLeg1_LegPoleVector
+    100348: leftLeg1_LowerLegBuffer
+    100350: leftLeg1_LowerLegControl
+    100352: leftLeg1_ParentConstrain
+    100354: leftLeg1_ParentToUpperBody
+    100356: leftLeg1_ParentToWorldNull
+    100358: leftLeg1_poleVectCounterAim
+    100360: leftLeg1_RigAim
+    100362: leftLeg1_RigFoot
+    100364: leftLeg1_Rigging
+    100366: leftLeg1_RigJoints
+    100368: leftLeg1_RigLowerLeg
+    100370: leftLeg1_RigToe
+    100372: leftLeg1_RigToe_end
+    100374: leftLeg1_RigToeAim
+    100376: leftLeg1_RigUpperLeg
+    100378: leftLeg1_rotCluster
+    100380: leftLeg1_RotIsolate
+    100382: leftLeg1_RotUnIsolate
+    100384: leftLeg1_stretchValues
+    100386: leftLeg1_switchIKOut
+    100388: leftLeg1_ToeBuffer
+    100390: leftLeg1_ToeControl
+    100392: leftLeg1_ToeIK
+    100394: leftLeg1_ToeIKPoleVector
+    100396: leftLeg1_ToeRaiser
+    100398: leftLeg1_UpperLegBuffer
+    100400: leftLeg1_UpperLegControl
+    100402: leftThumb1_AttributesConnectToUpperBody
+    100404: leftThumb1_cluster1Handle
+    100406: leftThumb1_Control
+    100408: leftThumb1_ControlBuffer
+    100410: leftThumb1_controlScale
+    100412: leftThumb1_Joint1
+    100414: leftThumb1_Joint2
+    100416: leftThumb1_Joint3
+    100418: leftThumb1_ParentConstrain
+    100420: leftThumb1_ParentToWorld
+    100422: leftThumb1_rig
+    100424: leftThumb1_upVector
+    100426: rightArm1_aim22
+    100428: rightArm1_aimtargetReName
+    100430: rightArm1_aimWithoutUpVector2_aim
+    100432: rightArm1_aimWithoutUpVector2_aim1
+    100434: rightArm1_aimWithoutUpVector2_lean
+    100436: rightArm1_aimWithoutUpVector2_twist
+    100438: rightArm1_aimWithoutUpVector_2untwist
+    100440: rightArm1_aimWithoutUpVector_lean
+    100442: rightArm1_aimWithoutUpVector_twist
+    100444: rightArm1_aimWithoutUpVector_untwist
+    100446: rightArm1_ArmArrowDeform
+    100448: rightArm1_ArmIKBuffer
+    100450: rightArm1_ArmIKControl
+    100452: rightArm1_ArmIKElbowBuffer
+    100454: rightArm1_ArmIKElbowControl
+    100456: rightArm1_ArmIKHandle
+    100458: rightArm1_ArmPoleVector
+    100460: rightArm1_arrowheadbuffer
+    100462: rightArm1_AttributesConnectToUpperBody
+    100464: rightArm1_ClavicalBuffer
+    100466: rightArm1_ClavicalControl
+    100468: rightArm1_cluster5Handle
+    100470: rightArm1_distanceDimension5
+    100472: rightArm1_HandBuffer
+    100474: rightArm1_HandControl
+    100476: rightArm1_HiResClavical
+    100478: rightArm1_HiResHand
+    100480: rightArm1_HiResLowerArm
+    100482: rightArm1_HiResLowerArmTwist
+    100484: rightArm1_HiResUpperArm
+    100486: rightArm1_HiResUpperArmTwist
+    100488: rightArm1_locator1
+    100490: rightArm1_locator2
+    100492: rightArm1_LowerArmBuffer
+    100494: rightArm1_LowerArmControl
+    100496: rightArm1_movearrow
+    100498: rightArm1_movearrowhead
+    100500: rightArm1_ParentConstrain
+    100502: rightArm1_ParentToUpperBody
+    100504: rightArm1_ParentToWorldNull
+    100506: rightArm1_Rig_Clavical
+    100508: rightArm1_Rig_Hand
+    100510: rightArm1_Rig_LowerArm
+    100512: rightArm1_Rig_UpperArm
+    100514: rightArm1_Rigging
+    100516: rightArm1_RigJoints
+    100518: rightArm1_scalearrowbottom
+    100520: rightArm1_scalearrowhead
+    100522: rightArm1_stretchValues
+    100524: rightArm1_UpperArmBuffer
+    100526: rightArm1_UpperArmControl
+    100528: rightArm1_UpperArmRotationIsolated
+    100530: rightArm1_UpperArmRotationUnisolated
+    100532: rightFinger1_AttributesConnectToUpperBody
+    100534: rightFinger1_cluster1Handle
+    100536: rightFinger1_Control
+    100538: rightFinger1_ControlBuffer
+    100540: rightFinger1_controlScale
+    100542: rightFinger1_Joint1
+    100544: rightFinger1_Joint2
+    100546: rightFinger1_Joint3
+    100548: rightFinger1_MetaCarpel
+    100550: rightFinger1_ParentConstrain
+    100552: rightFinger1_ParentToWorld
+    100554: rightFinger1_rig
+    100556: rightFinger1_upVector
+    100558: rightFinger2_AttributesConnectToUpperBody
+    100560: rightFinger2_cluster1Handle
+    100562: rightFinger2_Control
+    100564: rightFinger2_ControlBuffer
+    100566: rightFinger2_controlScale
+    100568: rightFinger2_Joint1
+    100570: rightFinger2_Joint2
+    100572: rightFinger2_Joint3
+    100574: rightFinger2_MetaCarpel
+    100576: rightFinger2_ParentConstrain
+    100578: rightFinger2_ParentToWorld
+    100580: rightFinger2_rig
+    100582: rightFinger2_upVector
+    100584: rightFinger3_AttributesConnectToUpperBody
+    100586: rightFinger3_cluster1Handle
+    100588: rightFinger3_Control
+    100590: rightFinger3_ControlBuffer
+    100592: rightFinger3_controlScale
+    100594: rightFinger3_Joint1
+    100596: rightFinger3_Joint2
+    100598: rightFinger3_Joint3
+    100600: rightFinger3_MetaCarpel
+    100602: rightFinger3_ParentConstrain
+    100604: rightFinger3_ParentToWorld
+    100606: rightFinger3_rig
+    100608: rightFinger3_upVector
+    100610: rightFinger4_AttributesConnectToUpperBody
+    100612: rightFinger4_cluster1Handle
+    100614: rightFinger4_Control
+    100616: rightFinger4_ControlBuffer
+    100618: rightFinger4_controlScale
+    100620: rightFinger4_Joint1
+    100622: rightFinger4_Joint2
+    100624: rightFinger4_Joint3
+    100626: rightFinger4_MetaCarpel
+    100628: rightFinger4_ParentConstrain
+    100630: rightFinger4_ParentToWorld
+    100632: rightFinger4_rig
+    100634: rightFinger4_upVector
+    100636: rightLeg1_arrowClusters
+    100638: rightLeg1_AttributesConnectToUpperBody
+    100640: rightLeg1_AWUPAim
+    100642: rightLeg1_AWUPLean
+    100644: rightLeg1_AWUPTwist
+    100646: rightLeg1_AWUPUnTwist
+    100648: rightLeg1_cluster2Handle
+    100650: rightLeg1_cluster3Handle
+    100652: rightLeg1_cluster4Handle
+    100654: rightLeg1_distanceDimension1
+    100656: rightLeg1_DistanceMeasure1
+    100658: rightLeg1_DistanceMeasure2
+    100660: rightLeg1_FootArrowPoleVector
+    100662: rightLeg1_FootBuffer
+    100664: rightLeg1_FootControl
+    100666: rightLeg1_footControlSizer
+    100668: rightLeg1_FootIK
+    100670: rightLeg1_FootIKPoleVector
+    100672: rightLeg1_HeelRaiser
+    100674: rightLeg1_highResJointAimer
+    100676: rightLeg1_hipTwistAimer
+    100678: rightLeg1_hipUpVect1
+    100680: rightLeg1_hipUpVect2
+    100682: rightLeg1_HiResFoot
+    100684: rightLeg1_HiResLowerLeg
+    100686: rightLeg1_HiResLowerLegTwist
+    100688: rightLeg1_HiResToe
+    100690: rightLeg1_HiResUpperLeg
+    100692: rightLeg1_HiResUpperLegTwist
+    100694: rightLeg1_IKHeelControl
+    100696: rightLeg1_IKSwitchToePlacer
+    100698: rightLeg1_KneeAimer
+    100700: rightLeg1_KneeBuffer
+    100702: rightLeg1_KneeCorrectForWindget
+    100704: rightLeg1_KneeFixPosition
+    100706: rightLeg1_KneeRotateXtra
+    100708: rightLeg1_LegIKAimed
+    100710: rightLeg1_LegIKBuffer
+    100712: rightLeg1_LegIKControl
+    100714: rightLeg1_LegIKKneeControl
+    100716: rightLeg1_LegPoleVector
+    100718: rightLeg1_LowerLegBuffer
+    100720: rightLeg1_LowerLegControl
+    100722: rightLeg1_ParentConstrain
+    100724: rightLeg1_ParentToUpperBody
+    100726: rightLeg1_ParentToWorldNull
+    100728: rightLeg1_poleVectCounterAim
+    100730: rightLeg1_RigAim
+    100732: rightLeg1_RigFoot
+    100734: rightLeg1_Rigging
+    100736: rightLeg1_RigJoints
+    100738: rightLeg1_RigLowerLeg
+    100740: rightLeg1_RigToe
+    100742: rightLeg1_RigToe_end
+    100744: rightLeg1_RigToeAim
+    100746: rightLeg1_RigUpperLeg
+    100748: rightLeg1_rotCluster
+    100750: rightLeg1_RotIsolate
+    100752: rightLeg1_RotUnIsolate
+    100754: rightLeg1_stretchValues
+    100756: rightLeg1_switchIKOut
+    100758: rightLeg1_ToeBuffer
+    100760: rightLeg1_ToeControl
+    100762: rightLeg1_ToeIK
+    100764: rightLeg1_ToeIKPoleVector
+    100766: rightLeg1_ToeRaiser
+    100768: rightLeg1_UpperLegBuffer
+    100770: rightLeg1_UpperLegControl
+    100772: rightThumb1_AttributesConnectToUpperBody
+    100774: rightThumb1_cluster1Handle
+    100776: rightThumb1_Control
+    100778: rightThumb1_ControlBuffer
+    100780: rightThumb1_controlScale
+    100782: rightThumb1_Joint1
+    100784: rightThumb1_Joint2
+    100786: rightThumb1_Joint3
+    100788: rightThumb1_ParentConstrain
+    100790: rightThumb1_ParentToWorld
+    100792: rightThumb1_rig
+    100794: rightThumb1_upVector
+    100796: spine1_AttributesConnectToUpperBody
+    100798: spine1_cluster1Handle
+    100800: spine1_cluster2Handle
+    100802: spine1_cluster3Handle
+    100804: spine1_Curve
+    100806: spine1_Curve1
+    100808: spine1_hipsControl
+    100810: spine1_hipsIKBuffer
+    100812: spine1_hipsIKControl
+    100814: spine1_hiResHips
+    100816: spine1_hiResSpine1
+    100818: spine1_hiResSpine2
+    100820: spine1_hiResSpine3
+    100822: spine1_hiResSpine4
+    100824: spine1_hiResSpine5
+    100826: spine1_hiResWorkNodes
+    100828: spine1_Loc1
+    100830: spine1_Loc2
+    100832: spine1_Loc3
+    100834: spine1_locator3
+    100836: spine1_locator4
+    100838: spine1_locator5
+    100840: spine1_locator6
+    100842: spine1_locator7
+    100844: spine1_locator8
+    100846: spine1_lowerJointRotated
+    100848: spine1_lowerJointSkewed
+    100850: spine1_lowerSpineBuffer
+    100852: spine1_lowerSpineControl
+    100854: spine1_middleSpineAim
+    100856: spine1_middleSpineBuffer
+    100858: spine1_middleSpineControl
+    100860: spine1_middleSpineIKBuffer
+    100862: spine1_middleSpineIKControl
+    100864: spine1_middleSpineTransform
+    100866: spine1_ParentConstrain
+    100868: spine1_ParentToWorldNull
+    100870: spine1_pelvisAttach
+    100872: spine1_rig
+    100874: spine1_torsoBuffer
+    100876: spine1_torsoControl
+    100878: spine1_torsoIKBuffer
+    100880: spine1_torsoIKControl
+    100882: spine1_Trans1
+    100884: spine1_Trans2
+    100886: spine1_Trans3
+    100888: spine1_upperJointRotated
+    100890: spine1_upperJointSkewed
+    100892: spine1_UpVector
+    100894: spine1_widgetAngles
+    100896: TSMG_Cruft
+    100898: TSMG_IK_Controllers
+    100900: TSMG_Rig
+    100902: TSMG_root
+    100904: TSMG_upper_body
+    100906: TSMG_upper_body_buffer
+    100908: TSMGSceneData
+    100910: TSMGWorldJoint
+    400000: //RootNode
+    400002: ember1
+    400004: extrudedSurface1
+    400006: extrudedSurface1_MeshPart0
+    400008: extrudedSurface1_MeshPart1
+    400010: extrudedSurface1_MeshPart2
+    400012: extrudedSurface1_MeshPart3
+    400014: extrudedSurface1_MeshPart4
+    400016: group1
+    400018: head1_AttributesConnectToUpperBody
+    400020: head1_Buffer
+    400022: head1_cluster1Handle
+    400024: head1_cluster2Handle
+    400026: head1_Control
+    400028: head1_head
+    400030: head1_neck
+    400032: head1_neckAWUPAimer
+    400034: head1_neckAWUPLean
+    400036: head1_neckAWUPTwist
+    400038: head1_neckAWUPUnTwist
+    400040: head1_neckBuffer
+    400042: head1_neckControl
+    400044: head1_neckSpace
+    400046: head1_ParentConstrain
+    400048: head1_ParentToUpperBody
+    400050: head1_ParentToWorld
+    400052: head1_RotateToIsolate
+    400054: head1_rotIsolate
+    400056: leftArm1_aim22
+    400058: leftArm1_aimtargetReName
+    400060: leftArm1_aimWithoutUpVector2_aim
+    400062: leftArm1_aimWithoutUpVector2_aim1
+    400064: leftArm1_aimWithoutUpVector2_lean
+    400066: leftArm1_aimWithoutUpVector2_twist
+    400068: leftArm1_aimWithoutUpVector_2untwist
+    400070: leftArm1_aimWithoutUpVector_lean
+    400072: leftArm1_aimWithoutUpVector_twist
+    400074: leftArm1_aimWithoutUpVector_untwist
+    400076: leftArm1_ArmArrowDeform
+    400078: leftArm1_ArmIKBuffer
+    400080: leftArm1_ArmIKControl
+    400082: leftArm1_ArmIKElbowBuffer
+    400084: leftArm1_ArmIKElbowControl
+    400086: leftArm1_ArmIKHandle
+    400088: leftArm1_ArmPoleVector
+    400090: leftArm1_arrowheadbuffer
+    400092: leftArm1_AttributesConnectToUpperBody
+    400094: leftArm1_ClavicalBuffer
+    400096: leftArm1_ClavicalControl
+    400098: leftArm1_cluster5Handle
+    400100: leftArm1_distanceDimension5
+    400102: leftArm1_HandBuffer
+    400104: leftArm1_HandControl
+    400106: leftArm1_HiResClavical
+    400108: leftArm1_HiResHand
+    400110: leftArm1_HiResLowerArm
+    400112: leftArm1_HiResLowerArmTwist
+    400114: leftArm1_HiResUpperArm
+    400116: leftArm1_HiResUpperArmTwist
+    400118: leftArm1_locator1
+    400120: leftArm1_locator2
+    400122: leftArm1_LowerArmBuffer
+    400124: leftArm1_LowerArmControl
+    400126: leftArm1_movearrow
+    400128: leftArm1_movearrowhead
+    400130: leftArm1_ParentConstrain
+    400132: leftArm1_ParentToUpperBody
+    400134: leftArm1_ParentToWorldNull
+    400136: leftArm1_Rig_Clavical
+    400138: leftArm1_Rig_Hand
+    400140: leftArm1_Rig_LowerArm
+    400142: leftArm1_Rig_UpperArm
+    400144: leftArm1_Rigging
+    400146: leftArm1_RigJoints
+    400148: leftArm1_scalearrowbottom
+    400150: leftArm1_scalearrowhead
+    400152: leftArm1_stretchValues
+    400154: leftArm1_UpperArmBuffer
+    400156: leftArm1_UpperArmControl
+    400158: leftArm1_UpperArmRotationIsolated
+    400160: leftArm1_UpperArmRotationUnisolated
+    400162: leftFinger1_AttributesConnectToUpperBody
+    400164: leftFinger1_cluster1Handle
+    400166: leftFinger1_Control
+    400168: leftFinger1_ControlBuffer
+    400170: leftFinger1_controlScale
+    400172: leftFinger1_Joint1
+    400174: leftFinger1_Joint2
+    400176: leftFinger1_Joint3
+    400178: leftFinger1_MetaCarpel
+    400180: leftFinger1_ParentConstrain
+    400182: leftFinger1_ParentToWorld
+    400184: leftFinger1_rig
+    400186: leftFinger1_upVector
+    400188: leftFinger2_AttributesConnectToUpperBody
+    400190: leftFinger2_cluster1Handle
+    400192: leftFinger2_Control
+    400194: leftFinger2_ControlBuffer
+    400196: leftFinger2_controlScale
+    400198: leftFinger2_Joint1
+    400200: leftFinger2_Joint2
+    400202: leftFinger2_Joint3
+    400204: leftFinger2_MetaCarpel
+    400206: leftFinger2_ParentConstrain
+    400208: leftFinger2_ParentToWorld
+    400210: leftFinger2_rig
+    400212: leftFinger2_upVector
+    400214: leftFinger3_AttributesConnectToUpperBody
+    400216: leftFinger3_cluster1Handle
+    400218: leftFinger3_Control
+    400220: leftFinger3_ControlBuffer
+    400222: leftFinger3_controlScale
+    400224: leftFinger3_Joint1
+    400226: leftFinger3_Joint2
+    400228: leftFinger3_Joint3
+    400230: leftFinger3_MetaCarpel
+    400232: leftFinger3_ParentConstrain
+    400234: leftFinger3_ParentToWorld
+    400236: leftFinger3_rig
+    400238: leftFinger3_upVector
+    400240: leftFinger4_AttributesConnectToUpperBody
+    400242: leftFinger4_cluster1Handle
+    400244: leftFinger4_Control
+    400246: leftFinger4_ControlBuffer
+    400248: leftFinger4_controlScale
+    400250: leftFinger4_Joint1
+    400252: leftFinger4_Joint2
+    400254: leftFinger4_Joint3
+    400256: leftFinger4_MetaCarpel
+    400258: leftFinger4_ParentConstrain
+    400260: leftFinger4_ParentToWorld
+    400262: leftFinger4_rig
+    400264: leftFinger4_upVector
+    400266: leftLeg1_arrowClusters
+    400268: leftLeg1_AttributesConnectToUpperBody
+    400270: leftLeg1_AWUPAim
+    400272: leftLeg1_AWUPLean
+    400274: leftLeg1_AWUPTwist
+    400276: leftLeg1_AWUPUnTwist
+    400278: leftLeg1_cluster2Handle
+    400280: leftLeg1_cluster3Handle
+    400282: leftLeg1_cluster4Handle
+    400284: leftLeg1_distanceDimension1
+    400286: leftLeg1_DistanceMeasure1
+    400288: leftLeg1_DistanceMeasure2
+    400290: leftLeg1_FootArrowPoleVector
+    400292: leftLeg1_FootBuffer
+    400294: leftLeg1_FootControl
+    400296: leftLeg1_footControlSizer
+    400298: leftLeg1_FootIK
+    400300: leftLeg1_FootIKPoleVector
+    400302: leftLeg1_HeelRaiser
+    400304: leftLeg1_highResJointAimer
+    400306: leftLeg1_hipTwistAimer
+    400308: leftLeg1_hipUpVect1
+    400310: leftLeg1_hipUpVect2
+    400312: leftLeg1_HiResFoot
+    400314: leftLeg1_HiResLowerLeg
+    400316: leftLeg1_HiResLowerLegTwist
+    400318: leftLeg1_HiResToe
+    400320: leftLeg1_HiResUpperLeg
+    400322: leftLeg1_HiResUpperLegTwist
+    400324: leftLeg1_IKHeelControl
+    400326: leftLeg1_IKSwitchToePlacer
+    400328: leftLeg1_KneeAimer
+    400330: leftLeg1_KneeBuffer
+    400332: leftLeg1_KneeCorrectForWindget
+    400334: leftLeg1_KneeFixPosition
+    400336: leftLeg1_KneeRotateXtra
+    400338: leftLeg1_LegIKAimed
+    400340: leftLeg1_LegIKBuffer
+    400342: leftLeg1_LegIKControl
+    400344: leftLeg1_LegIKKneeControl
+    400346: leftLeg1_LegPoleVector
+    400348: leftLeg1_LowerLegBuffer
+    400350: leftLeg1_LowerLegControl
+    400352: leftLeg1_ParentConstrain
+    400354: leftLeg1_ParentToUpperBody
+    400356: leftLeg1_ParentToWorldNull
+    400358: leftLeg1_poleVectCounterAim
+    400360: leftLeg1_RigAim
+    400362: leftLeg1_RigFoot
+    400364: leftLeg1_Rigging
+    400366: leftLeg1_RigJoints
+    400368: leftLeg1_RigLowerLeg
+    400370: leftLeg1_RigToe
+    400372: leftLeg1_RigToe_end
+    400374: leftLeg1_RigToeAim
+    400376: leftLeg1_RigUpperLeg
+    400378: leftLeg1_rotCluster
+    400380: leftLeg1_RotIsolate
+    400382: leftLeg1_RotUnIsolate
+    400384: leftLeg1_stretchValues
+    400386: leftLeg1_switchIKOut
+    400388: leftLeg1_ToeBuffer
+    400390: leftLeg1_ToeControl
+    400392: leftLeg1_ToeIK
+    400394: leftLeg1_ToeIKPoleVector
+    400396: leftLeg1_ToeRaiser
+    400398: leftLeg1_UpperLegBuffer
+    400400: leftLeg1_UpperLegControl
+    400402: leftThumb1_AttributesConnectToUpperBody
+    400404: leftThumb1_cluster1Handle
+    400406: leftThumb1_Control
+    400408: leftThumb1_ControlBuffer
+    400410: leftThumb1_controlScale
+    400412: leftThumb1_Joint1
+    400414: leftThumb1_Joint2
+    400416: leftThumb1_Joint3
+    400418: leftThumb1_ParentConstrain
+    400420: leftThumb1_ParentToWorld
+    400422: leftThumb1_rig
+    400424: leftThumb1_upVector
+    400426: rightArm1_aim22
+    400428: rightArm1_aimtargetReName
+    400430: rightArm1_aimWithoutUpVector2_aim
+    400432: rightArm1_aimWithoutUpVector2_aim1
+    400434: rightArm1_aimWithoutUpVector2_lean
+    400436: rightArm1_aimWithoutUpVector2_twist
+    400438: rightArm1_aimWithoutUpVector_2untwist
+    400440: rightArm1_aimWithoutUpVector_lean
+    400442: rightArm1_aimWithoutUpVector_twist
+    400444: rightArm1_aimWithoutUpVector_untwist
+    400446: rightArm1_ArmArrowDeform
+    400448: rightArm1_ArmIKBuffer
+    400450: rightArm1_ArmIKControl
+    400452: rightArm1_ArmIKElbowBuffer
+    400454: rightArm1_ArmIKElbowControl
+    400456: rightArm1_ArmIKHandle
+    400458: rightArm1_ArmPoleVector
+    400460: rightArm1_arrowheadbuffer
+    400462: rightArm1_AttributesConnectToUpperBody
+    400464: rightArm1_ClavicalBuffer
+    400466: rightArm1_ClavicalControl
+    400468: rightArm1_cluster5Handle
+    400470: rightArm1_distanceDimension5
+    400472: rightArm1_HandBuffer
+    400474: rightArm1_HandControl
+    400476: rightArm1_HiResClavical
+    400478: rightArm1_HiResHand
+    400480: rightArm1_HiResLowerArm
+    400482: rightArm1_HiResLowerArmTwist
+    400484: rightArm1_HiResUpperArm
+    400486: rightArm1_HiResUpperArmTwist
+    400488: rightArm1_locator1
+    400490: rightArm1_locator2
+    400492: rightArm1_LowerArmBuffer
+    400494: rightArm1_LowerArmControl
+    400496: rightArm1_movearrow
+    400498: rightArm1_movearrowhead
+    400500: rightArm1_ParentConstrain
+    400502: rightArm1_ParentToUpperBody
+    400504: rightArm1_ParentToWorldNull
+    400506: rightArm1_Rig_Clavical
+    400508: rightArm1_Rig_Hand
+    400510: rightArm1_Rig_LowerArm
+    400512: rightArm1_Rig_UpperArm
+    400514: rightArm1_Rigging
+    400516: rightArm1_RigJoints
+    400518: rightArm1_scalearrowbottom
+    400520: rightArm1_scalearrowhead
+    400522: rightArm1_stretchValues
+    400524: rightArm1_UpperArmBuffer
+    400526: rightArm1_UpperArmControl
+    400528: rightArm1_UpperArmRotationIsolated
+    400530: rightArm1_UpperArmRotationUnisolated
+    400532: rightFinger1_AttributesConnectToUpperBody
+    400534: rightFinger1_cluster1Handle
+    400536: rightFinger1_Control
+    400538: rightFinger1_ControlBuffer
+    400540: rightFinger1_controlScale
+    400542: rightFinger1_Joint1
+    400544: rightFinger1_Joint2
+    400546: rightFinger1_Joint3
+    400548: rightFinger1_MetaCarpel
+    400550: rightFinger1_ParentConstrain
+    400552: rightFinger1_ParentToWorld
+    400554: rightFinger1_rig
+    400556: rightFinger1_upVector
+    400558: rightFinger2_AttributesConnectToUpperBody
+    400560: rightFinger2_cluster1Handle
+    400562: rightFinger2_Control
+    400564: rightFinger2_ControlBuffer
+    400566: rightFinger2_controlScale
+    400568: rightFinger2_Joint1
+    400570: rightFinger2_Joint2
+    400572: rightFinger2_Joint3
+    400574: rightFinger2_MetaCarpel
+    400576: rightFinger2_ParentConstrain
+    400578: rightFinger2_ParentToWorld
+    400580: rightFinger2_rig
+    400582: rightFinger2_upVector
+    400584: rightFinger3_AttributesConnectToUpperBody
+    400586: rightFinger3_cluster1Handle
+    400588: rightFinger3_Control
+    400590: rightFinger3_ControlBuffer
+    400592: rightFinger3_controlScale
+    400594: rightFinger3_Joint1
+    400596: rightFinger3_Joint2
+    400598: rightFinger3_Joint3
+    400600: rightFinger3_MetaCarpel
+    400602: rightFinger3_ParentConstrain
+    400604: rightFinger3_ParentToWorld
+    400606: rightFinger3_rig
+    400608: rightFinger3_upVector
+    400610: rightFinger4_AttributesConnectToUpperBody
+    400612: rightFinger4_cluster1Handle
+    400614: rightFinger4_Control
+    400616: rightFinger4_ControlBuffer
+    400618: rightFinger4_controlScale
+    400620: rightFinger4_Joint1
+    400622: rightFinger4_Joint2
+    400624: rightFinger4_Joint3
+    400626: rightFinger4_MetaCarpel
+    400628: rightFinger4_ParentConstrain
+    400630: rightFinger4_ParentToWorld
+    400632: rightFinger4_rig
+    400634: rightFinger4_upVector
+    400636: rightLeg1_arrowClusters
+    400638: rightLeg1_AttributesConnectToUpperBody
+    400640: rightLeg1_AWUPAim
+    400642: rightLeg1_AWUPLean
+    400644: rightLeg1_AWUPTwist
+    400646: rightLeg1_AWUPUnTwist
+    400648: rightLeg1_cluster2Handle
+    400650: rightLeg1_cluster3Handle
+    400652: rightLeg1_cluster4Handle
+    400654: rightLeg1_distanceDimension1
+    400656: rightLeg1_DistanceMeasure1
+    400658: rightLeg1_DistanceMeasure2
+    400660: rightLeg1_FootArrowPoleVector
+    400662: rightLeg1_FootBuffer
+    400664: rightLeg1_FootControl
+    400666: rightLeg1_footControlSizer
+    400668: rightLeg1_FootIK
+    400670: rightLeg1_FootIKPoleVector
+    400672: rightLeg1_HeelRaiser
+    400674: rightLeg1_highResJointAimer
+    400676: rightLeg1_hipTwistAimer
+    400678: rightLeg1_hipUpVect1
+    400680: rightLeg1_hipUpVect2
+    400682: rightLeg1_HiResFoot
+    400684: rightLeg1_HiResLowerLeg
+    400686: rightLeg1_HiResLowerLegTwist
+    400688: rightLeg1_HiResToe
+    400690: rightLeg1_HiResUpperLeg
+    400692: rightLeg1_HiResUpperLegTwist
+    400694: rightLeg1_IKHeelControl
+    400696: rightLeg1_IKSwitchToePlacer
+    400698: rightLeg1_KneeAimer
+    400700: rightLeg1_KneeBuffer
+    400702: rightLeg1_KneeCorrectForWindget
+    400704: rightLeg1_KneeFixPosition
+    400706: rightLeg1_KneeRotateXtra
+    400708: rightLeg1_LegIKAimed
+    400710: rightLeg1_LegIKBuffer
+    400712: rightLeg1_LegIKControl
+    400714: rightLeg1_LegIKKneeControl
+    400716: rightLeg1_LegPoleVector
+    400718: rightLeg1_LowerLegBuffer
+    400720: rightLeg1_LowerLegControl
+    400722: rightLeg1_ParentConstrain
+    400724: rightLeg1_ParentToUpperBody
+    400726: rightLeg1_ParentToWorldNull
+    400728: rightLeg1_poleVectCounterAim
+    400730: rightLeg1_RigAim
+    400732: rightLeg1_RigFoot
+    400734: rightLeg1_Rigging
+    400736: rightLeg1_RigJoints
+    400738: rightLeg1_RigLowerLeg
+    400740: rightLeg1_RigToe
+    400742: rightLeg1_RigToe_end
+    400744: rightLeg1_RigToeAim
+    400746: rightLeg1_RigUpperLeg
+    400748: rightLeg1_rotCluster
+    400750: rightLeg1_RotIsolate
+    400752: rightLeg1_RotUnIsolate
+    400754: rightLeg1_stretchValues
+    400756: rightLeg1_switchIKOut
+    400758: rightLeg1_ToeBuffer
+    400760: rightLeg1_ToeControl
+    400762: rightLeg1_ToeIK
+    400764: rightLeg1_ToeIKPoleVector
+    400766: rightLeg1_ToeRaiser
+    400768: rightLeg1_UpperLegBuffer
+    400770: rightLeg1_UpperLegControl
+    400772: rightThumb1_AttributesConnectToUpperBody
+    400774: rightThumb1_cluster1Handle
+    400776: rightThumb1_Control
+    400778: rightThumb1_ControlBuffer
+    400780: rightThumb1_controlScale
+    400782: rightThumb1_Joint1
+    400784: rightThumb1_Joint2
+    400786: rightThumb1_Joint3
+    400788: rightThumb1_ParentConstrain
+    400790: rightThumb1_ParentToWorld
+    400792: rightThumb1_rig
+    400794: rightThumb1_upVector
+    400796: spine1_AttributesConnectToUpperBody
+    400798: spine1_cluster1Handle
+    400800: spine1_cluster2Handle
+    400802: spine1_cluster3Handle
+    400804: spine1_Curve
+    400806: spine1_Curve1
+    400808: spine1_hipsControl
+    400810: spine1_hipsIKBuffer
+    400812: spine1_hipsIKControl
+    400814: spine1_hiResHips
+    400816: spine1_hiResSpine1
+    400818: spine1_hiResSpine2
+    400820: spine1_hiResSpine3
+    400822: spine1_hiResSpine4
+    400824: spine1_hiResSpine5
+    400826: spine1_hiResWorkNodes
+    400828: spine1_Loc1
+    400830: spine1_Loc2
+    400832: spine1_Loc3
+    400834: spine1_locator3
+    400836: spine1_locator4
+    400838: spine1_locator5
+    400840: spine1_locator6
+    400842: spine1_locator7
+    400844: spine1_locator8
+    400846: spine1_lowerJointRotated
+    400848: spine1_lowerJointSkewed
+    400850: spine1_lowerSpineBuffer
+    400852: spine1_lowerSpineControl
+    400854: spine1_middleSpineAim
+    400856: spine1_middleSpineBuffer
+    400858: spine1_middleSpineControl
+    400860: spine1_middleSpineIKBuffer
+    400862: spine1_middleSpineIKControl
+    400864: spine1_middleSpineTransform
+    400866: spine1_ParentConstrain
+    400868: spine1_ParentToWorldNull
+    400870: spine1_pelvisAttach
+    400872: spine1_rig
+    400874: spine1_torsoBuffer
+    400876: spine1_torsoControl
+    400878: spine1_torsoIKBuffer
+    400880: spine1_torsoIKControl
+    400882: spine1_Trans1
+    400884: spine1_Trans2
+    400886: spine1_Trans3
+    400888: spine1_upperJointRotated
+    400890: spine1_upperJointSkewed
+    400892: spine1_UpVector
+    400894: spine1_widgetAngles
+    400896: TSMG_Cruft
+    400898: TSMG_IK_Controllers
+    400900: TSMG_Rig
+    400902: TSMG_root
+    400904: TSMG_upper_body
+    400906: TSMG_upper_body_buffer
+    400908: TSMGSceneData
+    400910: TSMGWorldJoint
+    4300000: ember1
+    4300002: extrudedSurface1_MeshPart0
+    4300004: extrudedSurface1_MeshPart1
+    4300006: extrudedSurface1_MeshPart2
+    4300008: extrudedSurface1_MeshPart3
+    4300010: extrudedSurface1_MeshPart4
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: ember1
+    13700002: extrudedSurface1_MeshPart0
+    13700004: extrudedSurface1_MeshPart1
+    13700006: extrudedSurface1_MeshPart2
+    13700008: extrudedSurface1_MeshPart3
+    13700010: extrudedSurface1_MeshPart4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    pivotNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 600
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/ember1
+        weight: 1
+      - path: group1/extrudedSurface1
+        weight: 1
+      - path: group1/extrudedSurface1/extrudedSurface1_MeshPart0
+        weight: 1
+      - path: group1/extrudedSurface1/extrudedSurface1_MeshPart1
+        weight: 1
+      - path: group1/extrudedSurface1/extrudedSurface1_MeshPart2
+        weight: 1
+      - path: group1/extrudedSurface1/extrudedSurface1_MeshPart3
+        weight: 1
+      - path: group1/extrudedSurface1/extrudedSurface1_MeshPart4
+        weight: 1
+      - path: TSMG_Rig
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentConstrain/head1_neckSpace
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentConstrain/head1_neckSpace/head1_neckBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentConstrain/head1_neckSpace/head1_neckBuffer/head1_neckAWUPAimer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentConstrain/head1_neckSpace/head1_neckBuffer/head1_neckAWUPTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentConstrain/head1_neckSpace/head1_neckBuffer/head1_neckAWUPTwist/head1_neckAWUPLean
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentConstrain/head1_neckSpace/head1_neckBuffer/head1_neckAWUPTwist/head1_neckAWUPLean/head1_neckAWUPUnTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentConstrain/head1_neckSpace/head1_neckBuffer/head1_neckControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentConstrain/head1_neckSpace/head1_neckBuffer/head1_neckControl/head1_Buffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentConstrain/head1_neckSpace/head1_neckBuffer/head1_neckControl/head1_Buffer/head1_Control
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentConstrain/head1_neckSpace/head1_neckBuffer/head1_neckControl/head1_Buffer/head1_RotateToIsolate
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentToWorld
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentToWorld/head1_cluster1Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/head1_ParentToWorld/head1_cluster2Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl/leftArm1_UpperArmBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl/leftArm1_UpperArmBuffer/leftArm1_aimtargetReName
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl/leftArm1_UpperArmBuffer/leftArm1_ArmIKElbowBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl/leftArm1_UpperArmBuffer/leftArm1_ArmIKElbowBuffer/leftArm1_ArmIKElbowControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl/leftArm1_UpperArmBuffer/leftArm1_ArmIKElbowBuffer/leftArm1_ArmIKElbowControl/leftArm1_ArmPoleVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl/leftArm1_UpperArmBuffer/leftArm1_locator1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl/leftArm1_UpperArmBuffer/leftArm1_UpperArmControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl/leftArm1_UpperArmBuffer/leftArm1_UpperArmControl/leftArm1_LowerArmBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl/leftArm1_UpperArmBuffer/leftArm1_UpperArmControl/leftArm1_LowerArmBuffer/leftArm1_LowerArmControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl/leftArm1_UpperArmBuffer/leftArm1_UpperArmControl/leftArm1_LowerArmBuffer/leftArm1_LowerArmControl/leftArm1_HandBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl/leftArm1_UpperArmBuffer/leftArm1_UpperArmControl/leftArm1_LowerArmBuffer/leftArm1_LowerArmControl/leftArm1_HandBuffer/leftArm1_HandControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_ClavicalBuffer/leftArm1_ClavicalControl/leftArm1_UpperArmRotationUnisolated
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical/leftArm1_aimWithoutUpVector_twist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical/leftArm1_aimWithoutUpVector_twist/leftArm1_aimWithoutUpVector_lean
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical/leftArm1_aimWithoutUpVector_twist/leftArm1_aimWithoutUpVector_lean/leftArm1_aimWithoutUpVector_untwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical/leftArm1_Rig_UpperArm
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical/leftArm1_Rig_UpperArm/leftArm1_Rig_LowerArm
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical/leftArm1_Rig_UpperArm/leftArm1_Rig_LowerArm/leftArm1_aimWithoutUpVector2_aim
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical/leftArm1_Rig_UpperArm/leftArm1_Rig_LowerArm/leftArm1_Rig_Hand
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical/leftArm1_Rig_UpperArm/leftArm1_Rig_LowerArm/leftArm1_Rig_Hand/leftArm1_aim22
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical/leftArm1_Rig_UpperArm/leftArm1_Rig_LowerArm/leftArm1_Rig_Hand/leftArm1_aimWithoutUpVector2_aim1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical/leftArm1_Rig_UpperArm/leftArm1_Rig_LowerArm/leftArm1_Rig_Hand/leftArm1_aimWithoutUpVector2_twist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical/leftArm1_Rig_UpperArm/leftArm1_Rig_LowerArm/leftArm1_Rig_Hand/leftArm1_aimWithoutUpVector2_twist/leftArm1_aimWithoutUpVector2_lean
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_ParentConstrain/leftArm1_Rigging/leftArm1_RigJoints/leftArm1_Rig_Clavical/leftArm1_Rig_UpperArm/leftArm1_Rig_LowerArm/leftArm1_Rig_Hand/leftArm1_aimWithoutUpVector2_twist/leftArm1_aimWithoutUpVector2_lean/leftArm1_aimWithoutUpVector_2untwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftArm1_stretchValues
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger1_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger1_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger1_ParentConstrain/leftFinger1_rig
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger1_ParentConstrain/leftFinger1_rig/leftFinger1_ControlBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger1_ParentConstrain/leftFinger1_rig/leftFinger1_ControlBuffer/leftFinger1_Control
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger1_ParentConstrain/leftFinger1_rig/leftFinger1_upVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger1_ParentToWorld
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger1_ParentToWorld/leftFinger1_controlScale
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger1_ParentToWorld/leftFinger1_controlScale/leftFinger1_cluster1Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger2_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger2_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger2_ParentConstrain/leftFinger2_rig
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger2_ParentConstrain/leftFinger2_rig/leftFinger2_ControlBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger2_ParentConstrain/leftFinger2_rig/leftFinger2_ControlBuffer/leftFinger2_Control
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger2_ParentConstrain/leftFinger2_rig/leftFinger2_upVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger2_ParentToWorld
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger2_ParentToWorld/leftFinger2_controlScale
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger2_ParentToWorld/leftFinger2_controlScale/leftFinger2_cluster1Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger3_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger3_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger3_ParentConstrain/leftFinger3_rig
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger3_ParentConstrain/leftFinger3_rig/leftFinger3_ControlBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger3_ParentConstrain/leftFinger3_rig/leftFinger3_ControlBuffer/leftFinger3_Control
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger3_ParentConstrain/leftFinger3_rig/leftFinger3_upVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger3_ParentToWorld
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger3_ParentToWorld/leftFinger3_controlScale
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger3_ParentToWorld/leftFinger3_controlScale/leftFinger3_cluster1Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger4_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger4_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger4_ParentConstrain/leftFinger4_rig
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger4_ParentConstrain/leftFinger4_rig/leftFinger4_ControlBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger4_ParentConstrain/leftFinger4_rig/leftFinger4_ControlBuffer/leftFinger4_Control
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger4_ParentConstrain/leftFinger4_rig/leftFinger4_upVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger4_ParentToWorld
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger4_ParentToWorld/leftFinger4_controlScale
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftFinger4_ParentToWorld/leftFinger4_controlScale/leftFinger4_cluster1Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_distanceDimension1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_KneeBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_KneeBuffer/leftLeg1_KneeAimer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_KneeBuffer/leftLeg1_KneeAimer/leftLeg1_KneeFixPosition
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_KneeBuffer/leftLeg1_KneeAimer/leftLeg1_KneeFixPosition/leftLeg1_KneeRotateXtra
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_KneeBuffer/leftLeg1_KneeAimer/leftLeg1_KneeFixPosition/leftLeg1_KneeRotateXtra/leftLeg1_KneeCorrectForWindget
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_KneeBuffer/leftLeg1_KneeAimer/leftLeg1_KneeFixPosition/leftLeg1_KneeRotateXtra/leftLeg1_KneeCorrectForWindget/leftLeg1_LegIKKneeControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_KneeBuffer/leftLeg1_KneeAimer/leftLeg1_KneeFixPosition/leftLeg1_KneeRotateXtra/leftLeg1_KneeCorrectForWindget/leftLeg1_LegIKKneeControl/leftLeg1_LegPoleVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RigJoints
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RigJoints/leftLeg1_RigUpperLeg
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RigJoints/leftLeg1_RigUpperLeg/leftLeg1_hipTwistAimer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RigJoints/leftLeg1_RigUpperLeg/leftLeg1_hipUpVect2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RigJoints/leftLeg1_RigUpperLeg/leftLeg1_RigLowerLeg
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RigJoints/leftLeg1_RigUpperLeg/leftLeg1_RigLowerLeg/leftLeg1_RigAim
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RigJoints/leftLeg1_RigUpperLeg/leftLeg1_RigLowerLeg/leftLeg1_RigFoot
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RigJoints/leftLeg1_RigUpperLeg/leftLeg1_RigLowerLeg/leftLeg1_RigFoot/leftLeg1_IKSwitchToePlacer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RigJoints/leftLeg1_RigUpperLeg/leftLeg1_RigLowerLeg/leftLeg1_RigFoot/leftLeg1_RigToe
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RigJoints/leftLeg1_RigUpperLeg/leftLeg1_RigLowerLeg/leftLeg1_RigFoot/leftLeg1_RigToe/leftLeg1_RigToe_end
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RigJoints/leftLeg1_RigUpperLeg/leftLeg1_RigLowerLeg/leftLeg1_RigFoot/leftLeg1_RigToe/leftLeg1_switchIKOut
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RigJoints/leftLeg1_RigUpperLeg/leftLeg1_RigLowerLeg/leftLeg1_RigFoot/leftLeg1_RigToeAim
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_RotUnIsolate
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_AWUPAim
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_AWUPTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_AWUPTwist/leftLeg1_AWUPLean
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_AWUPTwist/leftLeg1_AWUPLean/leftLeg1_AWUPUnTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_DistanceMeasure1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_highResJointAimer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_highResJointAimer/leftLeg1_hipUpVect1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_UpperLegControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_UpperLegControl/leftLeg1_LowerLegBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_UpperLegControl/leftLeg1_LowerLegBuffer/leftLeg1_LowerLegControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_UpperLegControl/leftLeg1_LowerLegBuffer/leftLeg1_LowerLegControl/leftLeg1_FootBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_UpperLegControl/leftLeg1_LowerLegBuffer/leftLeg1_LowerLegControl/leftLeg1_FootBuffer/leftLeg1_FootControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_UpperLegControl/leftLeg1_LowerLegBuffer/leftLeg1_LowerLegControl/leftLeg1_FootBuffer/leftLeg1_FootControl/leftLeg1_ToeBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_ParentConstrain/leftLeg1_Rigging/leftLeg1_UpperLegBuffer/leftLeg1_UpperLegControl/leftLeg1_LowerLegBuffer/leftLeg1_LowerLegControl/leftLeg1_FootBuffer/leftLeg1_FootControl/leftLeg1_ToeBuffer/leftLeg1_ToeControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftLeg1_stretchValues
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftThumb1_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftThumb1_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftThumb1_ParentConstrain/leftThumb1_rig
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftThumb1_ParentConstrain/leftThumb1_rig/leftThumb1_ControlBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftThumb1_ParentConstrain/leftThumb1_rig/leftThumb1_ControlBuffer/leftThumb1_Control
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftThumb1_ParentConstrain/leftThumb1_rig/leftThumb1_upVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftThumb1_ParentToWorld
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftThumb1_ParentToWorld/leftThumb1_controlScale
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/leftThumb1_ParentToWorld/leftThumb1_controlScale/leftThumb1_cluster1Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl/rightArm1_UpperArmBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl/rightArm1_UpperArmBuffer/rightArm1_aimtargetReName
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl/rightArm1_UpperArmBuffer/rightArm1_ArmIKElbowBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl/rightArm1_UpperArmBuffer/rightArm1_ArmIKElbowBuffer/rightArm1_ArmIKElbowControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl/rightArm1_UpperArmBuffer/rightArm1_ArmIKElbowBuffer/rightArm1_ArmIKElbowControl/rightArm1_ArmPoleVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl/rightArm1_UpperArmBuffer/rightArm1_locator1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl/rightArm1_UpperArmBuffer/rightArm1_UpperArmControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl/rightArm1_UpperArmBuffer/rightArm1_UpperArmControl/rightArm1_LowerArmBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl/rightArm1_UpperArmBuffer/rightArm1_UpperArmControl/rightArm1_LowerArmBuffer/rightArm1_LowerArmControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl/rightArm1_UpperArmBuffer/rightArm1_UpperArmControl/rightArm1_LowerArmBuffer/rightArm1_LowerArmControl/rightArm1_HandBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl/rightArm1_UpperArmBuffer/rightArm1_UpperArmControl/rightArm1_LowerArmBuffer/rightArm1_LowerArmControl/rightArm1_HandBuffer/rightArm1_HandControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_ClavicalBuffer/rightArm1_ClavicalControl/rightArm1_UpperArmRotationUnisolated
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical/rightArm1_aimWithoutUpVector_twist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical/rightArm1_aimWithoutUpVector_twist/rightArm1_aimWithoutUpVector_lean
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical/rightArm1_aimWithoutUpVector_twist/rightArm1_aimWithoutUpVector_lean/rightArm1_aimWithoutUpVector_untwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical/rightArm1_Rig_UpperArm
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical/rightArm1_Rig_UpperArm/rightArm1_Rig_LowerArm
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical/rightArm1_Rig_UpperArm/rightArm1_Rig_LowerArm/rightArm1_aimWithoutUpVector2_aim
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical/rightArm1_Rig_UpperArm/rightArm1_Rig_LowerArm/rightArm1_Rig_Hand
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical/rightArm1_Rig_UpperArm/rightArm1_Rig_LowerArm/rightArm1_Rig_Hand/rightArm1_aim22
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical/rightArm1_Rig_UpperArm/rightArm1_Rig_LowerArm/rightArm1_Rig_Hand/rightArm1_aimWithoutUpVector2_aim1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical/rightArm1_Rig_UpperArm/rightArm1_Rig_LowerArm/rightArm1_Rig_Hand/rightArm1_aimWithoutUpVector2_twist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical/rightArm1_Rig_UpperArm/rightArm1_Rig_LowerArm/rightArm1_Rig_Hand/rightArm1_aimWithoutUpVector2_twist/rightArm1_aimWithoutUpVector2_lean
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_ParentConstrain/rightArm1_Rigging/rightArm1_RigJoints/rightArm1_Rig_Clavical/rightArm1_Rig_UpperArm/rightArm1_Rig_LowerArm/rightArm1_Rig_Hand/rightArm1_aimWithoutUpVector2_twist/rightArm1_aimWithoutUpVector2_lean/rightArm1_aimWithoutUpVector_2untwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightArm1_stretchValues
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger1_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger1_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger1_ParentConstrain/rightFinger1_rig
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger1_ParentConstrain/rightFinger1_rig/rightFinger1_ControlBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger1_ParentConstrain/rightFinger1_rig/rightFinger1_ControlBuffer/rightFinger1_Control
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger1_ParentConstrain/rightFinger1_rig/rightFinger1_upVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger1_ParentToWorld
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger1_ParentToWorld/rightFinger1_controlScale
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger1_ParentToWorld/rightFinger1_controlScale/rightFinger1_cluster1Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger2_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger2_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger2_ParentConstrain/rightFinger2_rig
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger2_ParentConstrain/rightFinger2_rig/rightFinger2_ControlBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger2_ParentConstrain/rightFinger2_rig/rightFinger2_ControlBuffer/rightFinger2_Control
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger2_ParentConstrain/rightFinger2_rig/rightFinger2_upVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger2_ParentToWorld
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger2_ParentToWorld/rightFinger2_controlScale
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger2_ParentToWorld/rightFinger2_controlScale/rightFinger2_cluster1Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger3_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger3_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger3_ParentConstrain/rightFinger3_rig
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger3_ParentConstrain/rightFinger3_rig/rightFinger3_ControlBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger3_ParentConstrain/rightFinger3_rig/rightFinger3_ControlBuffer/rightFinger3_Control
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger3_ParentConstrain/rightFinger3_rig/rightFinger3_upVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger3_ParentToWorld
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger3_ParentToWorld/rightFinger3_controlScale
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger3_ParentToWorld/rightFinger3_controlScale/rightFinger3_cluster1Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger4_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger4_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger4_ParentConstrain/rightFinger4_rig
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger4_ParentConstrain/rightFinger4_rig/rightFinger4_ControlBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger4_ParentConstrain/rightFinger4_rig/rightFinger4_ControlBuffer/rightFinger4_Control
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger4_ParentConstrain/rightFinger4_rig/rightFinger4_upVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger4_ParentToWorld
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger4_ParentToWorld/rightFinger4_controlScale
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightFinger4_ParentToWorld/rightFinger4_controlScale/rightFinger4_cluster1Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_distanceDimension1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_KneeBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_KneeBuffer/rightLeg1_KneeAimer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_KneeBuffer/rightLeg1_KneeAimer/rightLeg1_KneeFixPosition
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_KneeBuffer/rightLeg1_KneeAimer/rightLeg1_KneeFixPosition/rightLeg1_KneeRotateXtra
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_KneeBuffer/rightLeg1_KneeAimer/rightLeg1_KneeFixPosition/rightLeg1_KneeRotateXtra/rightLeg1_KneeCorrectForWindget
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_KneeBuffer/rightLeg1_KneeAimer/rightLeg1_KneeFixPosition/rightLeg1_KneeRotateXtra/rightLeg1_KneeCorrectForWindget/rightLeg1_LegIKKneeControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_KneeBuffer/rightLeg1_KneeAimer/rightLeg1_KneeFixPosition/rightLeg1_KneeRotateXtra/rightLeg1_KneeCorrectForWindget/rightLeg1_LegIKKneeControl/rightLeg1_LegPoleVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RigJoints
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RigJoints/rightLeg1_RigUpperLeg
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RigJoints/rightLeg1_RigUpperLeg/rightLeg1_hipTwistAimer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RigJoints/rightLeg1_RigUpperLeg/rightLeg1_hipUpVect2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RigJoints/rightLeg1_RigUpperLeg/rightLeg1_RigLowerLeg
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RigJoints/rightLeg1_RigUpperLeg/rightLeg1_RigLowerLeg/rightLeg1_RigAim
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RigJoints/rightLeg1_RigUpperLeg/rightLeg1_RigLowerLeg/rightLeg1_RigFoot
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RigJoints/rightLeg1_RigUpperLeg/rightLeg1_RigLowerLeg/rightLeg1_RigFoot/rightLeg1_IKSwitchToePlacer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RigJoints/rightLeg1_RigUpperLeg/rightLeg1_RigLowerLeg/rightLeg1_RigFoot/rightLeg1_RigToe
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RigJoints/rightLeg1_RigUpperLeg/rightLeg1_RigLowerLeg/rightLeg1_RigFoot/rightLeg1_RigToe/rightLeg1_RigToe_end
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RigJoints/rightLeg1_RigUpperLeg/rightLeg1_RigLowerLeg/rightLeg1_RigFoot/rightLeg1_RigToe/rightLeg1_switchIKOut
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RigJoints/rightLeg1_RigUpperLeg/rightLeg1_RigLowerLeg/rightLeg1_RigFoot/rightLeg1_RigToeAim
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_RotUnIsolate
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_AWUPAim
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_AWUPTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_AWUPTwist/rightLeg1_AWUPLean
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_AWUPTwist/rightLeg1_AWUPLean/rightLeg1_AWUPUnTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_DistanceMeasure1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_highResJointAimer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_highResJointAimer/rightLeg1_hipUpVect1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_UpperLegControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_UpperLegControl/rightLeg1_LowerLegBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_UpperLegControl/rightLeg1_LowerLegBuffer/rightLeg1_LowerLegControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_UpperLegControl/rightLeg1_LowerLegBuffer/rightLeg1_LowerLegControl/rightLeg1_FootBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_UpperLegControl/rightLeg1_LowerLegBuffer/rightLeg1_LowerLegControl/rightLeg1_FootBuffer/rightLeg1_FootControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_UpperLegControl/rightLeg1_LowerLegBuffer/rightLeg1_LowerLegControl/rightLeg1_FootBuffer/rightLeg1_FootControl/rightLeg1_ToeBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_ParentConstrain/rightLeg1_Rigging/rightLeg1_UpperLegBuffer/rightLeg1_UpperLegControl/rightLeg1_LowerLegBuffer/rightLeg1_LowerLegControl/rightLeg1_FootBuffer/rightLeg1_FootControl/rightLeg1_ToeBuffer/rightLeg1_ToeControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightLeg1_stretchValues
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightThumb1_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightThumb1_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightThumb1_ParentConstrain/rightThumb1_rig
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightThumb1_ParentConstrain/rightThumb1_rig/rightThumb1_ControlBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightThumb1_ParentConstrain/rightThumb1_rig/rightThumb1_ControlBuffer/rightThumb1_Control
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightThumb1_ParentConstrain/rightThumb1_rig/rightThumb1_upVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightThumb1_ParentToWorld
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightThumb1_ParentToWorld/rightThumb1_controlScale
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/rightThumb1_ParentToWorld/rightThumb1_controlScale/rightThumb1_cluster1Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_AttributesConnectToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_Curve1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_hipsIKBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_hipsIKBuffer/spine1_hipsIKControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_hiResWorkNodes
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_hiResWorkNodes/spine1_lowerJointRotated
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_hiResWorkNodes/spine1_lowerJointRotated/spine1_locator7
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_hiResWorkNodes/spine1_lowerJointRotated/spine1_locator7/spine1_locator8
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_hiResWorkNodes/spine1_lowerJointSkewed
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_hiResWorkNodes/spine1_upperJointRotated
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_hiResWorkNodes/spine1_upperJointRotated/spine1_locator5
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_hiResWorkNodes/spine1_upperJointRotated/spine1_locator5/spine1_locator6
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_hiResWorkNodes/spine1_upperJointSkewed
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_lowerSpineBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_lowerSpineBuffer/spine1_lowerSpineControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_lowerSpineBuffer/spine1_lowerSpineControl/spine1_hipsControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_lowerSpineBuffer/spine1_lowerSpineControl/spine1_middleSpineBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_lowerSpineBuffer/spine1_lowerSpineControl/spine1_middleSpineBuffer/spine1_middleSpineControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_lowerSpineBuffer/spine1_lowerSpineControl/spine1_middleSpineBuffer/spine1_middleSpineControl/spine1_torsoBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_lowerSpineBuffer/spine1_lowerSpineControl/spine1_middleSpineBuffer/spine1_middleSpineControl/spine1_torsoBuffer/spine1_torsoControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_middleSpineTransform
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_middleSpineTransform/spine1_middleSpineAim
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_middleSpineTransform/spine1_middleSpineAim/spine1_middleSpineIKBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_middleSpineTransform/spine1_middleSpineAim/spine1_middleSpineIKBuffer/spine1_middleSpineIKControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_torsoIKBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_torsoIKBuffer/spine1_torsoIKControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_Trans1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_Trans1/spine1_Loc1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_Trans1/spine1_locator3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_Trans1/spine1_pelvisAttach
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_Trans2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_Trans2/spine1_Loc2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_Trans2/spine1_UpVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_Trans3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_Trans3/spine1_Loc3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_ParentConstrain/spine1_rig/spine1_Trans3/spine1_locator4
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/spine1_widgetAngles
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGSceneData
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips/leftLeg1_HiResUpperLeg
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips/leftLeg1_HiResUpperLeg/leftLeg1_HiResUpperLegTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips/leftLeg1_HiResUpperLeg/leftLeg1_HiResUpperLegTwist/leftLeg1_HiResLowerLeg
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips/leftLeg1_HiResUpperLeg/leftLeg1_HiResUpperLegTwist/leftLeg1_HiResLowerLeg/leftLeg1_HiResLowerLegTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips/leftLeg1_HiResUpperLeg/leftLeg1_HiResUpperLegTwist/leftLeg1_HiResLowerLeg/leftLeg1_HiResLowerLegTwist/leftLeg1_HiResFoot
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips/leftLeg1_HiResUpperLeg/leftLeg1_HiResUpperLegTwist/leftLeg1_HiResLowerLeg/leftLeg1_HiResLowerLegTwist/leftLeg1_HiResFoot/leftLeg1_HiResToe
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips/rightLeg1_HiResUpperLeg
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips/rightLeg1_HiResUpperLeg/rightLeg1_HiResUpperLegTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips/rightLeg1_HiResUpperLeg/rightLeg1_HiResUpperLegTwist/rightLeg1_HiResLowerLeg
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips/rightLeg1_HiResUpperLeg/rightLeg1_HiResUpperLegTwist/rightLeg1_HiResLowerLeg/rightLeg1_HiResLowerLegTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips/rightLeg1_HiResUpperLeg/rightLeg1_HiResUpperLegTwist/rightLeg1_HiResLowerLeg/rightLeg1_HiResLowerLegTwist/rightLeg1_HiResFoot
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResHips/rightLeg1_HiResUpperLeg/rightLeg1_HiResUpperLegTwist/rightLeg1_HiResLowerLeg/rightLeg1_HiResLowerLegTwist/rightLeg1_HiResFoot/rightLeg1_HiResToe
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/head1_neck
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/head1_neck/head1_head
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger1_MetaCarpel
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger1_MetaCarpel/leftFinger1_Joint1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger1_MetaCarpel/leftFinger1_Joint1/leftFinger1_Joint2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger1_MetaCarpel/leftFinger1_Joint1/leftFinger1_Joint2/leftFinger1_Joint3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger2_MetaCarpel
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger2_MetaCarpel/leftFinger2_Joint1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger2_MetaCarpel/leftFinger2_Joint1/leftFinger2_Joint2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger2_MetaCarpel/leftFinger2_Joint1/leftFinger2_Joint2/leftFinger2_Joint3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger3_MetaCarpel
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger3_MetaCarpel/leftFinger3_Joint1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger3_MetaCarpel/leftFinger3_Joint1/leftFinger3_Joint2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger3_MetaCarpel/leftFinger3_Joint1/leftFinger3_Joint2/leftFinger3_Joint3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger4_MetaCarpel
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger4_MetaCarpel/leftFinger4_Joint1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger4_MetaCarpel/leftFinger4_Joint1/leftFinger4_Joint2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftFinger4_MetaCarpel/leftFinger4_Joint1/leftFinger4_Joint2/leftFinger4_Joint3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftThumb1_Joint1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftThumb1_Joint1/leftThumb1_Joint2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/leftArm1_HiResClavical/leftArm1_HiResUpperArm/leftArm1_HiResUpperArmTwist/leftArm1_HiResLowerArm/leftArm1_HiResLowerArmTwist/leftArm1_HiResHand/leftThumb1_Joint1/leftThumb1_Joint2/leftThumb1_Joint3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger1_MetaCarpel
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger1_MetaCarpel/rightFinger1_Joint1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger1_MetaCarpel/rightFinger1_Joint1/rightFinger1_Joint2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger1_MetaCarpel/rightFinger1_Joint1/rightFinger1_Joint2/rightFinger1_Joint3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger2_MetaCarpel
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger2_MetaCarpel/rightFinger2_Joint1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger2_MetaCarpel/rightFinger2_Joint1/rightFinger2_Joint2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger2_MetaCarpel/rightFinger2_Joint1/rightFinger2_Joint2/rightFinger2_Joint3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger3_MetaCarpel
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger3_MetaCarpel/rightFinger3_Joint1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger3_MetaCarpel/rightFinger3_Joint1/rightFinger3_Joint2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger3_MetaCarpel/rightFinger3_Joint1/rightFinger3_Joint2/rightFinger3_Joint3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger4_MetaCarpel
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger4_MetaCarpel/rightFinger4_Joint1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger4_MetaCarpel/rightFinger4_Joint1/rightFinger4_Joint2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightFinger4_MetaCarpel/rightFinger4_Joint1/rightFinger4_Joint2/rightFinger4_Joint3
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightThumb1_Joint1
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightThumb1_Joint1/rightThumb1_Joint2
+        weight: 1
+      - path: TSMG_Rig/TSMG_Cruft/TSMGWorldJoint/spine1_hiResSpine1/spine1_hiResSpine2/spine1_hiResSpine3/spine1_hiResSpine4/spine1_hiResSpine5/rightArm1_HiResClavical/rightArm1_HiResUpperArm/rightArm1_HiResUpperArmTwist/rightArm1_HiResLowerArm/rightArm1_HiResLowerArmTwist/rightArm1_HiResHand/rightThumb1_Joint1/rightThumb1_Joint2/rightThumb1_Joint3
+        weight: 1
+      - path: TSMG_Rig/TSMG_root
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull/leftArm1_ArmArrowDeform
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull/leftArm1_ArmArrowDeform/leftArm1_arrowheadbuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull/leftArm1_ArmArrowDeform/leftArm1_arrowheadbuffer/leftArm1_movearrowhead
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull/leftArm1_ArmArrowDeform/leftArm1_movearrow
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull/leftArm1_ArmArrowDeform/leftArm1_scalearrowbottom
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull/leftArm1_ArmArrowDeform/leftArm1_scalearrowhead
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull/leftArm1_ArmIKBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull/leftArm1_ArmIKBuffer/leftArm1_ArmIKControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull/leftArm1_ArmIKBuffer/leftArm1_ArmIKControl/leftArm1_ArmIKHandle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull/leftArm1_ArmIKBuffer/leftArm1_ArmIKControl/leftArm1_locator2
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull/leftArm1_cluster5Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftArm1_ParentToWorldNull/leftArm1_distanceDimension5
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_arrowClusters
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_arrowClusters/leftLeg1_cluster3Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_arrowClusters/leftLeg1_cluster4Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_arrowClusters/leftLeg1_footControlSizer
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_arrowClusters/leftLeg1_rotCluster
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_arrowClusters/leftLeg1_rotCluster/leftLeg1_cluster2Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer/leftLeg1_LegIKControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer/leftLeg1_LegIKControl/leftLeg1_LegIKAimed
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer/leftLeg1_LegIKControl/leftLeg1_LegIKAimed/leftLeg1_HeelRaiser
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer/leftLeg1_LegIKControl/leftLeg1_LegIKAimed/leftLeg1_HeelRaiser/leftLeg1_IKHeelControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer/leftLeg1_LegIKControl/leftLeg1_LegIKAimed/leftLeg1_HeelRaiser/leftLeg1_IKHeelControl/leftLeg1_DistanceMeasure2
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer/leftLeg1_LegIKControl/leftLeg1_LegIKAimed/leftLeg1_HeelRaiser/leftLeg1_IKHeelControl/leftLeg1_FootIK
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer/leftLeg1_LegIKControl/leftLeg1_LegIKAimed/leftLeg1_HeelRaiser/leftLeg1_IKHeelControl/leftLeg1_FootIKPoleVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer/leftLeg1_LegIKControl/leftLeg1_LegIKAimed/leftLeg1_poleVectCounterAim
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer/leftLeg1_LegIKControl/leftLeg1_LegIKAimed/leftLeg1_poleVectCounterAim/leftLeg1_FootArrowPoleVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer/leftLeg1_LegIKControl/leftLeg1_LegIKAimed/leftLeg1_ToeRaiser
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer/leftLeg1_LegIKControl/leftLeg1_LegIKAimed/leftLeg1_ToeRaiser/leftLeg1_ToeIK
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_LegIKBuffer/leftLeg1_LegIKControl/leftLeg1_LegIKAimed/leftLeg1_ToeRaiser/leftLeg1_ToeIKPoleVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/leftLeg1_ParentToWorldNull/leftLeg1_RotIsolate
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull/rightArm1_ArmArrowDeform
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull/rightArm1_ArmArrowDeform/rightArm1_arrowheadbuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull/rightArm1_ArmArrowDeform/rightArm1_arrowheadbuffer/rightArm1_movearrowhead
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull/rightArm1_ArmArrowDeform/rightArm1_movearrow
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull/rightArm1_ArmArrowDeform/rightArm1_scalearrowbottom
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull/rightArm1_ArmArrowDeform/rightArm1_scalearrowhead
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull/rightArm1_ArmIKBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull/rightArm1_ArmIKBuffer/rightArm1_ArmIKControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull/rightArm1_ArmIKBuffer/rightArm1_ArmIKControl/rightArm1_ArmIKHandle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull/rightArm1_ArmIKBuffer/rightArm1_ArmIKControl/rightArm1_locator2
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull/rightArm1_cluster5Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightArm1_ParentToWorldNull/rightArm1_distanceDimension5
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_arrowClusters
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_arrowClusters/rightLeg1_cluster3Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_arrowClusters/rightLeg1_cluster4Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_arrowClusters/rightLeg1_footControlSizer
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_arrowClusters/rightLeg1_rotCluster
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_arrowClusters/rightLeg1_rotCluster/rightLeg1_cluster2Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer/rightLeg1_LegIKControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer/rightLeg1_LegIKControl/rightLeg1_LegIKAimed
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer/rightLeg1_LegIKControl/rightLeg1_LegIKAimed/rightLeg1_HeelRaiser
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer/rightLeg1_LegIKControl/rightLeg1_LegIKAimed/rightLeg1_HeelRaiser/rightLeg1_IKHeelControl
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer/rightLeg1_LegIKControl/rightLeg1_LegIKAimed/rightLeg1_HeelRaiser/rightLeg1_IKHeelControl/rightLeg1_DistanceMeasure2
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer/rightLeg1_LegIKControl/rightLeg1_LegIKAimed/rightLeg1_HeelRaiser/rightLeg1_IKHeelControl/rightLeg1_FootIK
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer/rightLeg1_LegIKControl/rightLeg1_LegIKAimed/rightLeg1_HeelRaiser/rightLeg1_IKHeelControl/rightLeg1_FootIKPoleVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer/rightLeg1_LegIKControl/rightLeg1_LegIKAimed/rightLeg1_poleVectCounterAim
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer/rightLeg1_LegIKControl/rightLeg1_LegIKAimed/rightLeg1_poleVectCounterAim/rightLeg1_FootArrowPoleVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer/rightLeg1_LegIKControl/rightLeg1_LegIKAimed/rightLeg1_ToeRaiser
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer/rightLeg1_LegIKControl/rightLeg1_LegIKAimed/rightLeg1_ToeRaiser/rightLeg1_ToeIK
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_LegIKBuffer/rightLeg1_LegIKControl/rightLeg1_LegIKAimed/rightLeg1_ToeRaiser/rightLeg1_ToeIKPoleVector
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/rightLeg1_ParentToWorldNull/rightLeg1_RotIsolate
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/spine1_ParentToWorldNull
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/spine1_ParentToWorldNull/spine1_cluster1Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/spine1_ParentToWorldNull/spine1_cluster2Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/spine1_ParentToWorldNull/spine1_cluster3Handle
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/spine1_ParentToWorldNull/spine1_Curve
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/TSMG_upper_body_buffer
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/TSMG_upper_body_buffer/TSMG_upper_body
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/TSMG_upper_body_buffer/TSMG_upper_body/head1_ParentToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/TSMG_upper_body_buffer/TSMG_upper_body/head1_ParentToUpperBody/head1_rotIsolate
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/TSMG_upper_body_buffer/TSMG_upper_body/leftArm1_ParentToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/TSMG_upper_body_buffer/TSMG_upper_body/leftArm1_ParentToUpperBody/leftArm1_UpperArmRotationIsolated
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/TSMG_upper_body_buffer/TSMG_upper_body/leftLeg1_ParentToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/TSMG_upper_body_buffer/TSMG_upper_body/rightArm1_ParentToUpperBody
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/TSMG_upper_body_buffer/TSMG_upper_body/rightArm1_ParentToUpperBody/rightArm1_UpperArmRotationIsolated
+        weight: 1
+      - path: TSMG_Rig/TSMG_root/TSMG_IK_Controllers/TSMG_upper_body_buffer/TSMG_upper_body/rightLeg1_ParentToUpperBody
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 

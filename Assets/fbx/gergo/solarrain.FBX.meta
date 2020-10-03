@@ -1,0 +1,470 @@
+fileFormatVersion: 2
+guid: 0a10b5b480f8fa148a1496f4da348882
+timeCreated: 1463823319
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Metal000
+    100002: Metal001
+    100004: Metal002
+    100006: Metal003
+    100008: Metal004
+    100010: Metal005
+    100012: Metal006
+    100014: Metal007
+    100016: Metal008
+    100018: Metal009
+    100020: Metal010
+    100022: Metal011
+    100024: Metal013
+    100026: Metal014
+    100028: Metal015
+    100030: Metal016
+    100032: Metal017
+    100034: Metal018
+    100036: Metal019
+    100038: Metal020
+    100040: Metal021
+    100042: Metal022
+    100044: Metal023
+    100046: Metal024
+    100048: Metal025
+    100050: Metal12
+    100052: Solar000
+    100054: Solar001
+    100056: Solar002
+    100058: Solar003
+    100060: Solar004
+    100062: Solar005
+    100064: Solar006
+    100066: Solar007
+    100068: Solar008
+    100070: Solar009
+    100072: Solar010
+    100074: Solar011
+    100076: Solar012
+    100078: Solar013
+    100080: Solar014
+    100082: Solar015
+    100084: Solar016
+    100086: Solar017
+    100088: Solar018
+    100090: Solar019
+    100092: Solar020
+    100094: Solar021
+    100096: Solar022
+    100098: Solar023
+    100100: Solar024
+    100102: Solar025
+    100104: //RootNode
+    400000: Metal000
+    400002: Metal001
+    400004: Metal002
+    400006: Metal003
+    400008: Metal004
+    400010: Metal005
+    400012: Metal006
+    400014: Metal007
+    400016: Metal008
+    400018: Metal009
+    400020: Metal010
+    400022: Metal011
+    400024: Metal013
+    400026: Metal014
+    400028: Metal015
+    400030: Metal016
+    400032: Metal017
+    400034: Metal018
+    400036: Metal019
+    400038: Metal020
+    400040: Metal021
+    400042: Metal022
+    400044: Metal023
+    400046: Metal024
+    400048: Metal025
+    400050: Metal12
+    400052: Solar000
+    400054: Solar001
+    400056: Solar002
+    400058: Solar003
+    400060: Solar004
+    400062: Solar005
+    400064: Solar006
+    400066: Solar007
+    400068: Solar008
+    400070: Solar009
+    400072: Solar010
+    400074: Solar011
+    400076: Solar012
+    400078: Solar013
+    400080: Solar014
+    400082: Solar015
+    400084: Solar016
+    400086: Solar017
+    400088: Solar018
+    400090: Solar019
+    400092: Solar020
+    400094: Solar021
+    400096: Solar022
+    400098: Solar023
+    400100: Solar024
+    400102: Solar025
+    400104: //RootNode
+    2300000: Metal000
+    2300002: Metal001
+    2300004: Metal002
+    2300006: Metal003
+    2300008: Metal004
+    2300010: Metal005
+    2300012: Metal006
+    2300014: Metal007
+    2300016: Metal008
+    2300018: Metal009
+    2300020: Metal010
+    2300022: Metal011
+    2300024: Metal013
+    2300026: Metal014
+    2300028: Metal015
+    2300030: Metal016
+    2300032: Metal017
+    2300034: Metal018
+    2300036: Metal019
+    2300038: Metal020
+    2300040: Metal021
+    2300042: Metal022
+    2300044: Metal023
+    2300046: Metal024
+    2300048: Metal025
+    2300050: Metal12
+    2300052: Solar000
+    2300054: Solar001
+    2300056: Solar002
+    2300058: Solar003
+    2300060: Solar004
+    2300062: Solar005
+    2300064: Solar006
+    2300066: Solar007
+    2300068: Solar008
+    2300070: Solar009
+    2300072: Solar010
+    2300074: Solar011
+    2300076: Solar012
+    2300078: Solar013
+    2300080: Solar014
+    2300082: Solar015
+    2300084: Solar016
+    2300086: Solar017
+    2300088: Solar018
+    2300090: Solar019
+    2300092: Solar020
+    2300094: Solar021
+    2300096: Solar022
+    2300098: Solar023
+    2300100: Solar024
+    2300102: Solar025
+    3300000: Metal000
+    3300002: Metal001
+    3300004: Metal002
+    3300006: Metal003
+    3300008: Metal004
+    3300010: Metal005
+    3300012: Metal006
+    3300014: Metal007
+    3300016: Metal008
+    3300018: Metal009
+    3300020: Metal010
+    3300022: Metal011
+    3300024: Metal013
+    3300026: Metal014
+    3300028: Metal015
+    3300030: Metal016
+    3300032: Metal017
+    3300034: Metal018
+    3300036: Metal019
+    3300038: Metal020
+    3300040: Metal021
+    3300042: Metal022
+    3300044: Metal023
+    3300046: Metal024
+    3300048: Metal025
+    3300050: Metal12
+    3300052: Solar000
+    3300054: Solar001
+    3300056: Solar002
+    3300058: Solar003
+    3300060: Solar004
+    3300062: Solar005
+    3300064: Solar006
+    3300066: Solar007
+    3300068: Solar008
+    3300070: Solar009
+    3300072: Solar010
+    3300074: Solar011
+    3300076: Solar012
+    3300078: Solar013
+    3300080: Solar014
+    3300082: Solar015
+    3300084: Solar016
+    3300086: Solar017
+    3300088: Solar018
+    3300090: Solar019
+    3300092: Solar020
+    3300094: Solar021
+    3300096: Solar022
+    3300098: Solar023
+    3300100: Solar024
+    3300102: Solar025
+    4300000: Solar000
+    4300002: Solar001
+    4300004: Solar002
+    4300006: Solar003
+    4300008: Solar004
+    4300010: Solar005
+    4300012: Solar006
+    4300014: Solar007
+    4300016: Solar008
+    4300018: Solar009
+    4300020: Solar010
+    4300022: Solar011
+    4300024: Solar012
+    4300026: Solar013
+    4300028: Solar014
+    4300030: Solar015
+    4300032: Solar016
+    4300034: Solar017
+    4300036: Solar018
+    4300038: Solar019
+    4300040: Solar020
+    4300042: Solar021
+    4300044: Solar022
+    4300046: Solar023
+    4300048: Solar024
+    4300050: Solar025
+    4300052: Metal010
+    4300054: Metal12
+    4300056: Metal009
+    4300058: Metal011
+    4300060: Metal008
+    4300062: Metal004
+    4300064: Metal001
+    4300066: Metal000
+    4300068: Metal002
+    4300070: Metal014
+    4300072: Metal025
+    4300074: Metal007
+    4300076: Metal023
+    4300078: Metal017
+    4300080: Metal018
+    4300082: Metal005
+    4300084: Metal015
+    4300086: Metal019
+    4300088: Metal020
+    4300090: Metal024
+    4300092: Metal016
+    4300094: Metal003
+    4300096: Metal021
+    4300098: Metal006
+    4300100: Metal022
+    4300102: Metal013
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 3
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 750
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Metal000
+        weight: 1
+      - path: Metal001
+        weight: 1
+      - path: Metal002
+        weight: 1
+      - path: Metal003
+        weight: 1
+      - path: Metal004
+        weight: 1
+      - path: Metal005
+        weight: 1
+      - path: Metal006
+        weight: 1
+      - path: Metal007
+        weight: 1
+      - path: Metal008
+        weight: 1
+      - path: Metal009
+        weight: 1
+      - path: Metal010
+        weight: 1
+      - path: Metal011
+        weight: 1
+      - path: Metal12
+        weight: 1
+      - path: Metal013
+        weight: 1
+      - path: Metal014
+        weight: 1
+      - path: Metal015
+        weight: 1
+      - path: Metal016
+        weight: 1
+      - path: Metal017
+        weight: 1
+      - path: Metal018
+        weight: 1
+      - path: Metal019
+        weight: 1
+      - path: Metal020
+        weight: 1
+      - path: Metal021
+        weight: 1
+      - path: Metal022
+        weight: 1
+      - path: Metal023
+        weight: 1
+      - path: Metal024
+        weight: 1
+      - path: Metal025
+        weight: 1
+      - path: Solar000
+        weight: 1
+      - path: Solar001
+        weight: 1
+      - path: Solar002
+        weight: 1
+      - path: Solar003
+        weight: 1
+      - path: Solar004
+        weight: 1
+      - path: Solar005
+        weight: 1
+      - path: Solar006
+        weight: 1
+      - path: Solar007
+        weight: 1
+      - path: Solar008
+        weight: 1
+      - path: Solar009
+        weight: 1
+      - path: Solar010
+        weight: 1
+      - path: Solar011
+        weight: 1
+      - path: Solar012
+        weight: 1
+      - path: Solar013
+        weight: 1
+      - path: Solar014
+        weight: 1
+      - path: Solar015
+        weight: 1
+      - path: Solar016
+        weight: 1
+      - path: Solar017
+        weight: 1
+      - path: Solar018
+        weight: 1
+      - path: Solar019
+        weight: 1
+      - path: Solar020
+        weight: 1
+      - path: Solar021
+        weight: 1
+      - path: Solar022
+        weight: 1
+      - path: Solar023
+        weight: 1
+      - path: Solar024
+        weight: 1
+      - path: Solar025
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

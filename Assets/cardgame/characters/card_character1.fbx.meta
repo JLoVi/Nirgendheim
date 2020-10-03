@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 6119f94db8264a9449b5cde257c3c066
+timeCreated: 1465509735
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: man_start_controlledrig:Character3_Head
+    100004: man_start_controlledrig:Character3_Hips
+    100006: man_start_controlledrig:Character3_LeftArm
+    100008: man_start_controlledrig:Character3_LeftFoot
+    100010: man_start_controlledrig:Character3_LeftForeArm
+    100012: man_start_controlledrig:Character3_LeftHand
+    100014: man_start_controlledrig:Character3_LeftHandIndex1
+    100016: man_start_controlledrig:Character3_LeftHandIndex2
+    100018: man_start_controlledrig:Character3_LeftHandIndex3
+    100020: man_start_controlledrig:Character3_LeftHandIndex4
+    100022: man_start_controlledrig:Character3_LeftHandMiddle1
+    100024: man_start_controlledrig:Character3_LeftHandMiddle2
+    100026: man_start_controlledrig:Character3_LeftHandMiddle3
+    100028: man_start_controlledrig:Character3_LeftHandMiddle4
+    100030: man_start_controlledrig:Character3_LeftHandPinky1
+    100032: man_start_controlledrig:Character3_LeftHandPinky2
+    100034: man_start_controlledrig:Character3_LeftHandPinky3
+    100036: man_start_controlledrig:Character3_LeftHandPinky4
+    100038: man_start_controlledrig:Character3_LeftHandRing1
+    100040: man_start_controlledrig:Character3_LeftHandRing2
+    100042: man_start_controlledrig:Character3_LeftHandRing3
+    100044: man_start_controlledrig:Character3_LeftHandRing4
+    100046: man_start_controlledrig:Character3_LeftHandThumb1
+    100048: man_start_controlledrig:Character3_LeftHandThumb2
+    100050: man_start_controlledrig:Character3_LeftHandThumb3
+    100052: man_start_controlledrig:Character3_LeftHandThumb4
+    100054: man_start_controlledrig:Character3_LeftLeg
+    100056: man_start_controlledrig:Character3_LeftShoulder
+    100058: man_start_controlledrig:Character3_LeftToeBase
+    100060: man_start_controlledrig:Character3_LeftUpLeg
+    100062: man_start_controlledrig:Character3_Neck
+    100064: man_start_controlledrig:Character3_Reference
+    100066: man_start_controlledrig:Character3_RightArm
+    100068: man_start_controlledrig:Character3_RightFoot
+    100070: man_start_controlledrig:Character3_RightForeArm
+    100072: man_start_controlledrig:Character3_RightHand
+    100074: man_start_controlledrig:Character3_RightHandIndex1
+    100076: man_start_controlledrig:Character3_RightHandIndex2
+    100078: man_start_controlledrig:Character3_RightHandIndex3
+    100080: man_start_controlledrig:Character3_RightHandIndex4
+    100082: man_start_controlledrig:Character3_RightHandMiddle1
+    100084: man_start_controlledrig:Character3_RightHandMiddle2
+    100086: man_start_controlledrig:Character3_RightHandMiddle3
+    100088: man_start_controlledrig:Character3_RightHandMiddle4
+    100090: man_start_controlledrig:Character3_RightHandPinky1
+    100092: man_start_controlledrig:Character3_RightHandPinky2
+    100094: man_start_controlledrig:Character3_RightHandPinky3
+    100096: man_start_controlledrig:Character3_RightHandPinky4
+    100098: man_start_controlledrig:Character3_RightHandRing1
+    100100: man_start_controlledrig:Character3_RightHandRing2
+    100102: man_start_controlledrig:Character3_RightHandRing3
+    100104: man_start_controlledrig:Character3_RightHandRing4
+    100106: man_start_controlledrig:Character3_RightHandThumb1
+    100108: man_start_controlledrig:Character3_RightHandThumb2
+    100110: man_start_controlledrig:Character3_RightHandThumb3
+    100112: man_start_controlledrig:Character3_RightHandThumb4
+    100114: man_start_controlledrig:Character3_RightLeg
+    100116: man_start_controlledrig:Character3_RightShoulder
+    100118: man_start_controlledrig:Character3_RightToeBase
+    100120: man_start_controlledrig:Character3_RightUpLeg
+    100122: man_start_controlledrig:Character3_Spine
+    100124: man_start_controlledrig:Character3_Spine1
+    100126: man_start_controlledrig:Character3_Spine2
+    100128: man_start_controlledrig:fekvo_emberek:polySurface5
+    100130: pPlane2
+    100132: pPlane3
+    100134: pPlane4
+    400000: //RootNode
+    400002: man_start_controlledrig:Character3_Head
+    400004: man_start_controlledrig:Character3_Hips
+    400006: man_start_controlledrig:Character3_LeftArm
+    400008: man_start_controlledrig:Character3_LeftFoot
+    400010: man_start_controlledrig:Character3_LeftForeArm
+    400012: man_start_controlledrig:Character3_LeftHand
+    400014: man_start_controlledrig:Character3_LeftHandIndex1
+    400016: man_start_controlledrig:Character3_LeftHandIndex2
+    400018: man_start_controlledrig:Character3_LeftHandIndex3
+    400020: man_start_controlledrig:Character3_LeftHandIndex4
+    400022: man_start_controlledrig:Character3_LeftHandMiddle1
+    400024: man_start_controlledrig:Character3_LeftHandMiddle2
+    400026: man_start_controlledrig:Character3_LeftHandMiddle3
+    400028: man_start_controlledrig:Character3_LeftHandMiddle4
+    400030: man_start_controlledrig:Character3_LeftHandPinky1
+    400032: man_start_controlledrig:Character3_LeftHandPinky2
+    400034: man_start_controlledrig:Character3_LeftHandPinky3
+    400036: man_start_controlledrig:Character3_LeftHandPinky4
+    400038: man_start_controlledrig:Character3_LeftHandRing1
+    400040: man_start_controlledrig:Character3_LeftHandRing2
+    400042: man_start_controlledrig:Character3_LeftHandRing3
+    400044: man_start_controlledrig:Character3_LeftHandRing4
+    400046: man_start_controlledrig:Character3_LeftHandThumb1
+    400048: man_start_controlledrig:Character3_LeftHandThumb2
+    400050: man_start_controlledrig:Character3_LeftHandThumb3
+    400052: man_start_controlledrig:Character3_LeftHandThumb4
+    400054: man_start_controlledrig:Character3_LeftLeg
+    400056: man_start_controlledrig:Character3_LeftShoulder
+    400058: man_start_controlledrig:Character3_LeftToeBase
+    400060: man_start_controlledrig:Character3_LeftUpLeg
+    400062: man_start_controlledrig:Character3_Neck
+    400064: man_start_controlledrig:Character3_Reference
+    400066: man_start_controlledrig:Character3_RightArm
+    400068: man_start_controlledrig:Character3_RightFoot
+    400070: man_start_controlledrig:Character3_RightForeArm
+    400072: man_start_controlledrig:Character3_RightHand
+    400074: man_start_controlledrig:Character3_RightHandIndex1
+    400076: man_start_controlledrig:Character3_RightHandIndex2
+    400078: man_start_controlledrig:Character3_RightHandIndex3
+    400080: man_start_controlledrig:Character3_RightHandIndex4
+    400082: man_start_controlledrig:Character3_RightHandMiddle1
+    400084: man_start_controlledrig:Character3_RightHandMiddle2
+    400086: man_start_controlledrig:Character3_RightHandMiddle3
+    400088: man_start_controlledrig:Character3_RightHandMiddle4
+    400090: man_start_controlledrig:Character3_RightHandPinky1
+    400092: man_start_controlledrig:Character3_RightHandPinky2
+    400094: man_start_controlledrig:Character3_RightHandPinky3
+    400096: man_start_controlledrig:Character3_RightHandPinky4
+    400098: man_start_controlledrig:Character3_RightHandRing1
+    400100: man_start_controlledrig:Character3_RightHandRing2
+    400102: man_start_controlledrig:Character3_RightHandRing3
+    400104: man_start_controlledrig:Character3_RightHandRing4
+    400106: man_start_controlledrig:Character3_RightHandThumb1
+    400108: man_start_controlledrig:Character3_RightHandThumb2
+    400110: man_start_controlledrig:Character3_RightHandThumb3
+    400112: man_start_controlledrig:Character3_RightHandThumb4
+    400114: man_start_controlledrig:Character3_RightLeg
+    400116: man_start_controlledrig:Character3_RightShoulder
+    400118: man_start_controlledrig:Character3_RightToeBase
+    400120: man_start_controlledrig:Character3_RightUpLeg
+    400122: man_start_controlledrig:Character3_Spine
+    400124: man_start_controlledrig:Character3_Spine1
+    400126: man_start_controlledrig:Character3_Spine2
+    400128: man_start_controlledrig:fekvo_emberek:polySurface5
+    400130: pPlane2
+    400132: pPlane3
+    400134: pPlane4
+    2300000: pPlane2
+    2300002: pPlane3
+    2300004: pPlane4
+    3300000: pPlane2
+    3300002: pPlane3
+    3300004: pPlane4
+    4300000: man_start_controlledrig:fekvo_emberek:polySurface5
+    4300002: pPlane2
+    4300004: pPlane3
+    4300006: pPlane4
+    7400000: card_char1
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: man_start_controlledrig:fekvo_emberek:polySurface5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 3
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: card_char1
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 1300
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_LeftUpLeg
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_LeftUpLeg/man_start_controlledrig:Character3_LeftLeg
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_LeftUpLeg/man_start_controlledrig:Character3_LeftLeg/man_start_controlledrig:Character3_LeftFoot
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_LeftUpLeg/man_start_controlledrig:Character3_LeftLeg/man_start_controlledrig:Character3_LeftFoot/man_start_controlledrig:Character3_LeftToeBase
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_RightUpLeg
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_RightUpLeg/man_start_controlledrig:Character3_RightLeg
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_RightUpLeg/man_start_controlledrig:Character3_RightLeg/man_start_controlledrig:Character3_RightFoot
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_RightUpLeg/man_start_controlledrig:Character3_RightLeg/man_start_controlledrig:Character3_RightFoot/man_start_controlledrig:Character3_RightToeBase
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandIndex1
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandIndex1/man_start_controlledrig:Character3_LeftHandIndex2
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandIndex1/man_start_controlledrig:Character3_LeftHandIndex2/man_start_controlledrig:Character3_LeftHandIndex3
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandIndex1/man_start_controlledrig:Character3_LeftHandIndex2/man_start_controlledrig:Character3_LeftHandIndex3/man_start_controlledrig:Character3_LeftHandIndex4
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandMiddle1
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandMiddle1/man_start_controlledrig:Character3_LeftHandMiddle2
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandMiddle1/man_start_controlledrig:Character3_LeftHandMiddle2/man_start_controlledrig:Character3_LeftHandMiddle3
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandMiddle1/man_start_controlledrig:Character3_LeftHandMiddle2/man_start_controlledrig:Character3_LeftHandMiddle3/man_start_controlledrig:Character3_LeftHandMiddle4
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandPinky1
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandPinky1/man_start_controlledrig:Character3_LeftHandPinky2
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandPinky1/man_start_controlledrig:Character3_LeftHandPinky2/man_start_controlledrig:Character3_LeftHandPinky3
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandPinky1/man_start_controlledrig:Character3_LeftHandPinky2/man_start_controlledrig:Character3_LeftHandPinky3/man_start_controlledrig:Character3_LeftHandPinky4
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandRing1
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandRing1/man_start_controlledrig:Character3_LeftHandRing2
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandRing1/man_start_controlledrig:Character3_LeftHandRing2/man_start_controlledrig:Character3_LeftHandRing3
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandRing1/man_start_controlledrig:Character3_LeftHandRing2/man_start_controlledrig:Character3_LeftHandRing3/man_start_controlledrig:Character3_LeftHandRing4
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandThumb1
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandThumb1/man_start_controlledrig:Character3_LeftHandThumb2
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandThumb1/man_start_controlledrig:Character3_LeftHandThumb2/man_start_controlledrig:Character3_LeftHandThumb3
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/man_start_controlledrig:Character3_LeftHandThumb1/man_start_controlledrig:Character3_LeftHandThumb2/man_start_controlledrig:Character3_LeftHandThumb3/man_start_controlledrig:Character3_LeftHandThumb4
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/pPlane2
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/pPlane3
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_LeftShoulder/man_start_controlledrig:Character3_LeftArm/man_start_controlledrig:Character3_LeftForeArm/man_start_controlledrig:Character3_LeftHand/pPlane4
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_Neck
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_Neck/man_start_controlledrig:Character3_Head
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandIndex1
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandIndex1/man_start_controlledrig:Character3_RightHandIndex2
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandIndex1/man_start_controlledrig:Character3_RightHandIndex2/man_start_controlledrig:Character3_RightHandIndex3
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandIndex1/man_start_controlledrig:Character3_RightHandIndex2/man_start_controlledrig:Character3_RightHandIndex3/man_start_controlledrig:Character3_RightHandIndex4
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandMiddle1
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandMiddle1/man_start_controlledrig:Character3_RightHandMiddle2
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandMiddle1/man_start_controlledrig:Character3_RightHandMiddle2/man_start_controlledrig:Character3_RightHandMiddle3
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandMiddle1/man_start_controlledrig:Character3_RightHandMiddle2/man_start_controlledrig:Character3_RightHandMiddle3/man_start_controlledrig:Character3_RightHandMiddle4
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandPinky1
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandPinky1/man_start_controlledrig:Character3_RightHandPinky2
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandPinky1/man_start_controlledrig:Character3_RightHandPinky2/man_start_controlledrig:Character3_RightHandPinky3
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandPinky1/man_start_controlledrig:Character3_RightHandPinky2/man_start_controlledrig:Character3_RightHandPinky3/man_start_controlledrig:Character3_RightHandPinky4
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandRing1
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandRing1/man_start_controlledrig:Character3_RightHandRing2
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandRing1/man_start_controlledrig:Character3_RightHandRing2/man_start_controlledrig:Character3_RightHandRing3
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandRing1/man_start_controlledrig:Character3_RightHandRing2/man_start_controlledrig:Character3_RightHandRing3/man_start_controlledrig:Character3_RightHandRing4
+        weight: 0
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandThumb1
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandThumb1/man_start_controlledrig:Character3_RightHandThumb2
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandThumb1/man_start_controlledrig:Character3_RightHandThumb2/man_start_controlledrig:Character3_RightHandThumb3
+        weight: 1
+      - path: man_start_controlledrig:Character3_Reference/man_start_controlledrig:Character3_Hips/man_start_controlledrig:Character3_Spine/man_start_controlledrig:Character3_Spine1/man_start_controlledrig:Character3_Spine2/man_start_controlledrig:Character3_RightShoulder/man_start_controlledrig:Character3_RightArm/man_start_controlledrig:Character3_RightForeArm/man_start_controlledrig:Character3_RightHand/man_start_controlledrig:Character3_RightHandThumb1/man_start_controlledrig:Character3_RightHandThumb2/man_start_controlledrig:Character3_RightHandThumb3/man_start_controlledrig:Character3_RightHandThumb4
+        weight: 0
+      - path: man_start_controlledrig:fekvo_emberek:polySurface5
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.96
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 180
+    normalImportMode: 1
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

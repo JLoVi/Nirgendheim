@@ -1,0 +1,13 @@
+nice card you've got there
+x
+have you seen the device at the metro station?
+yes
+no
+
+we use it to smuggle goods(metal parts) from the metro station.
+
+we built a new one at the car wash. It might work with your card. Be careful though. It is still in development.
+//only people at the metrostation.
+//go back to the fire. its cold.
+
+

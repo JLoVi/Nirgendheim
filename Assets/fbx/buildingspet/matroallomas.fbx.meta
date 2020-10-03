@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: 362d65f8c1b2bf44f8f2d58d5fd4f7be
+timeCreated: 1463061716
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: basementin
+    100002: basementout
+    100004: columns
+    100006: directionalLight1
+    100008: extrudedSurface15
+    100010: floor
+    100012: floor 1
+    100014: gerenda
+    100016: Group01
+    100018: Group02
+    100020: Group_001
+    100022: Group_001 1
+    100024: Group_002
+    100026: Group_002 1
+    100028: Group_005
+    100030: Group_005 1
+    100032: Group_006
+    100034: Group_006 1
+    100036: Group_007
+    100038: Group_007 1
+    100040: Group_010
+    100042: Group_010 1
+    100044: Group_011
+    100046: Group_011 1
+    100048: Group_014
+    100050: Group_014 1
+    100052: Group_015
+    100054: Group_015 1
+    100056: Group_016
+    100058: Group_016 1
+    100060: keret
+    100062: keretnagy
+    100064: keritesin
+    100066: //RootNode
+    100068: meatbox
+    100070: metrotable
+    100072: metrotable1
+    100074: metrotable2
+    100076: nurbsToPoly1
+    100078: outsidekerites
+    100080: pCube10
+    100082: pCube12
+    100084: pCube14
+    100086: pCube15
+    100088: pCube16
+    100090: pCube17
+    100092: pCube18
+    100094: pCube2
+    100096: pCube20
+    100098: pCube21
+    100100: pCube22
+    100102: pCube23
+    100104: pCube23 1
+    100106: pCube23 2
+    100108: pCube24
+    100110: pCube27
+    100112: pCube28
+    100114: pCube29
+    100116: pCube3
+    100118: pCube30
+    100120: pCube31
+    100122: pCube32
+    100124: pCube33
+    100126: pCube34
+    100128: pCube35
+    100130: pCube36
+    100132: pCube37
+    100134: pCube41
+    100136: pCube42
+    100138: pCube43
+    100140: pCube44
+    100142: pCube46
+    100144: pCube47
+    100146: pCube48
+    100148: pCube49
+    100150: pCube51
+    100152: pCube52
+    100154: pCube53
+    100156: pCube54
+    100158: pCube55
+    100160: pCube56
+    100162: pCube57
+    100164: pCube58
+    100166: pCube59
+    100168: pCube60
+    100170: pCube61
+    100172: pCube8
+    100174: pCube9
+    100176: pCube9 1
+    100178: pCube9 2
+    100180: roof
+    100182: wall
+    100184: pSphere1
+    100186: pSphere2
+    100188: pSphere3
+    100190: roof1
+    100192: roof2
+    100194: roof3
+    100196: transform1
+    100198: transform2
+    100200: transform3
+    100202: transform4
+    100204: transform5
+    100206: transform6
+    400000: basementin
+    400002: basementout
+    400004: columns
+    400006: directionalLight1
+    400008: extrudedSurface15
+    400010: floor
+    400012: floor 1
+    400014: gerenda
+    400016: Group01
+    400018: Group02
+    400020: Group_001
+    400022: Group_001 1
+    400024: Group_002
+    400026: Group_002 1
+    400028: Group_005
+    400030: Group_005 1
+    400032: Group_006
+    400034: Group_006 1
+    400036: Group_007
+    400038: Group_007 1
+    400040: Group_010
+    400042: Group_010 1
+    400044: Group_011
+    400046: Group_011 1
+    400048: Group_014
+    400050: Group_014 1
+    400052: Group_015
+    400054: Group_015 1
+    400056: Group_016
+    400058: Group_016 1
+    400060: keret
+    400062: keretnagy
+    400064: keritesin
+    400066: //RootNode
+    400068: meatbox
+    400070: metrotable
+    400072: metrotable1
+    400074: metrotable2
+    400076: nurbsToPoly1
+    400078: outsidekerites
+    400080: pCube10
+    400082: pCube12
+    400084: pCube14
+    400086: pCube15
+    400088: pCube16
+    400090: pCube17
+    400092: pCube18
+    400094: pCube2
+    400096: pCube20
+    400098: pCube21
+    400100: pCube22
+    400102: pCube23
+    400104: pCube23 1
+    400106: pCube23 2
+    400108: pCube24
+    400110: pCube27
+    400112: pCube28
+    400114: pCube29
+    400116: pCube3
+    400118: pCube30
+    400120: pCube31
+    400122: pCube32
+    400124: pCube33
+    400126: pCube34
+    400128: pCube35
+    400130: pCube36
+    400132: pCube37
+    400134: pCube41
+    400136: pCube42
+    400138: pCube43
+    400140: pCube44
+    400142: pCube46
+    400144: pCube47
+    400146: pCube48
+    400148: pCube49
+    400150: pCube51
+    400152: pCube52
+    400154: pCube53
+    400156: pCube54
+    400158: pCube55
+    400160: pCube56
+    400162: pCube57
+    400164: pCube58
+    400166: pCube59
+    400168: pCube60
+    400170: pCube61
+    400172: pCube8
+    400174: pCube9
+    400176: pCube9 1
+    400178: pCube9 2
+    400180: roof
+    400182: wall
+    400184: pSphere1
+    400186: pSphere2
+    400188: pSphere3
+    400190: roof1
+    400192: roof2
+    400194: roof3
+    400196: transform1
+    400198: transform2
+    400200: transform3
+    400202: transform4
+    400204: transform5
+    400206: transform6
+    2300000: extrudedSurface15
+    2300002: floor 1
+    2300004: Group_001
+    2300006: Group_001 1
+    2300008: Group_002
+    2300010: Group_002 1
+    2300012: Group_005
+    2300014: Group_005 1
+    2300016: Group_006
+    2300018: Group_006 1
+    2300020: Group_007
+    2300022: Group_007 1
+    2300024: Group_010
+    2300026: Group_010 1
+    2300028: Group_011
+    2300030: Group_011 1
+    2300032: Group_014
+    2300034: Group_014 1
+    2300036: Group_015
+    2300038: Group_015 1
+    2300040: Group_016
+    2300042: Group_016 1
+    2300044: meatbox
+    2300046: nurbsToPoly1
+    2300048: pCube10
+    2300050: pCube12
+    2300052: pCube14
+    2300054: pCube15
+    2300056: pCube16
+    2300058: pCube17
+    2300060: pCube18
+    2300062: pCube2
+    2300064: pCube20
+    2300066: pCube21
+    2300068: pCube22
+    2300070: pCube23
+    2300072: pCube23 1
+    2300074: pCube23 2
+    2300076: pCube24
+    2300078: pCube27
+    2300080: pCube28
+    2300082: pCube29
+    2300084: pCube3
+    2300086: pCube30
+    2300088: pCube31
+    2300090: pCube32
+    2300092: pCube33
+    2300094: pCube34
+    2300096: pCube35
+    2300098: pCube36
+    2300100: pCube37
+    2300102: pCube41
+    2300104: pCube42
+    2300106: pCube43
+    2300108: pCube44
+    2300110: pCube46
+    2300112: pCube47
+    2300114: pCube48
+    2300116: pCube49
+    2300118: pCube51
+    2300120: pCube52
+    2300122: pCube53
+    2300124: pCube54
+    2300126: pCube55
+    2300128: pCube56
+    2300130: pCube57
+    2300132: pCube58
+    2300134: pCube59
+    2300136: pCube60
+    2300138: pCube61
+    2300140: pCube8
+    2300142: pCube9
+    2300144: pCube9 1
+    2300146: pCube9 2
+    2300148: roof
+    2300150: wall
+    2300152: roof3
+    3300000: extrudedSurface15
+    3300002: floor 1
+    3300004: Group_001
+    3300006: Group_001 1
+    3300008: Group_002
+    3300010: Group_002 1
+    3300012: Group_005
+    3300014: Group_005 1
+    3300016: Group_006
+    3300018: Group_006 1
+    3300020: Group_007
+    3300022: Group_007 1
+    3300024: Group_010
+    3300026: Group_010 1
+    3300028: Group_011
+    3300030: Group_011 1
+    3300032: Group_014
+    3300034: Group_014 1
+    3300036: Group_015
+    3300038: Group_015 1
+    3300040: Group_016
+    3300042: Group_016 1
+    3300044: meatbox
+    3300046: nurbsToPoly1
+    3300048: pCube10
+    3300050: pCube12
+    3300052: pCube14
+    3300054: pCube15
+    3300056: pCube16
+    3300058: pCube17
+    3300060: pCube18
+    3300062: pCube2
+    3300064: pCube20
+    3300066: pCube21
+    3300068: pCube22
+    3300070: pCube23
+    3300072: pCube23 1
+    3300074: pCube23 2
+    3300076: pCube24
+    3300078: pCube27
+    3300080: pCube28
+    3300082: pCube29
+    3300084: pCube3
+    3300086: pCube30
+    3300088: pCube31
+    3300090: pCube32
+    3300092: pCube33
+    3300094: pCube34
+    3300096: pCube35
+    3300098: pCube36
+    3300100: pCube37
+    3300102: pCube41
+    3300104: pCube42
+    3300106: pCube43
+    3300108: pCube44
+    3300110: pCube46
+    3300112: pCube47
+    3300114: pCube48
+    3300116: pCube49
+    3300118: pCube51
+    3300120: pCube52
+    3300122: pCube53
+    3300124: pCube54
+    3300126: pCube55
+    3300128: pCube56
+    3300130: pCube57
+    3300132: pCube58
+    3300134: pCube59
+    3300136: pCube60
+    3300138: pCube61
+    3300140: pCube8
+    3300142: pCube9
+    3300144: pCube9 1
+    3300146: pCube9 2
+    3300148: roof
+    3300150: wall
+    3300152: roof3
+    4300000: roof
+    4300002: wall
+    4300004: meatbox
+    4300006: Group_001
+    4300008: Group_002
+    4300010: Group_005
+    4300012: Group_006
+    4300014: Group_007
+    4300016: Group_010
+    4300018: Group_011
+    4300020: Group_014
+    4300022: Group_015
+    4300024: Group_016
+    4300026: Group_001
+    4300028: Group_002
+    4300030: Group_005
+    4300032: Group_006
+    4300034: Group_007
+    4300036: Group_010
+    4300038: Group_011
+    4300040: Group_014
+    4300042: Group_015
+    4300044: Group_016
+    4300046: pCube9
+    4300048: pCube23
+    4300050: pCube9
+    4300052: pCube23
+    4300054: nurbsToPoly1
+    4300056: extrudedSurface15
+    4300058: pCube47
+    4300060: pCube2
+    4300062: pCube24
+    4300064: pCube3
+    4300066: pCube14
+    4300068: pCube49
+    4300070: pCube51
+    4300072: pCube52
+    4300074: pCube48
+    4300076: pCube8
+    4300078: pCube46
+    4300080: pCube34
+    4300082: pCube33
+    4300084: pCube55
+    4300086: pCube12
+    4300088: pCube54
+    4300090: pCube32
+    4300092: pCube35
+    4300094: pCube37
+    4300096: pCube36
+    4300098: pCube20
+    4300100: pCube18
+    4300102: pCube21
+    4300104: pCube17
+    4300106: pCube16
+    4300108: pCube44
+    4300110: pCube43
+    4300112: pCube42
+    4300114: pCube41
+    4300116: pCube15
+    4300118: pCube31
+    4300120: pCube10
+    4300122: pCube30
+    4300124: pCube60
+    4300126: pCube57
+    4300128: pCube56
+    4300130: pCube58
+    4300132: pCube59
+    4300134: pCube61
+    4300136: pCube53
+    4300138: pCube28
+    4300140: pCube27
+    4300142: pCube29
+    4300144: floor
+    4300146: pCube22
+    4300148: pCube9
+    4300150: pCube23
+    4300152: roof3
+    6400000: floor 1
+    6400002: Group_001
+    6400004: Group_001 1
+    6400006: Group_002
+    6400008: Group_002 1
+    6400010: Group_005
+    6400012: Group_005 1
+    6400014: Group_006
+    6400016: Group_006 1
+    6400018: Group_007
+    6400020: Group_007 1
+    6400022: Group_010
+    6400024: Group_010 1
+    6400026: Group_011
+    6400028: Group_011 1
+    6400030: Group_014
+    6400032: Group_014 1
+    6400034: Group_015
+    6400036: Group_015 1
+    6400038: Group_016
+    6400040: Group_016 1
+    6400042: meatbox
+    6400044: nurbsToPoly1
+    6400046: pCube10
+    6400048: pCube12
+    6400050: pCube14
+    6400052: pCube15
+    6400054: pCube16
+    6400056: pCube17
+    6400058: pCube18
+    6400060: pCube2
+    6400062: pCube20
+    6400064: pCube21
+    6400066: pCube22
+    6400068: pCube23
+    6400070: pCube23 1
+    6400072: pCube23 2
+    6400074: pCube24
+    6400076: pCube27
+    6400078: pCube28
+    6400080: pCube29
+    6400082: pCube3
+    6400084: pCube30
+    6400086: pCube31
+    6400088: pCube32
+    6400090: pCube33
+    6400092: pCube34
+    6400094: pCube35
+    6400096: pCube36
+    6400098: pCube37
+    6400100: pCube41
+    6400102: pCube42
+    6400104: pCube43
+    6400106: pCube44
+    6400108: pCube46
+    6400110: pCube47
+    6400112: pCube48
+    6400114: pCube49
+    6400116: pCube51
+    6400118: pCube52
+    6400120: pCube53
+    6400122: pCube54
+    6400124: pCube55
+    6400126: pCube56
+    6400128: pCube57
+    6400130: pCube58
+    6400132: pCube59
+    6400134: pCube60
+    6400136: pCube61
+    6400138: pCube8
+    6400140: pCube9
+    6400142: pCube9 1
+    6400144: pCube9 2
+    6400146: roof3
+    6400148: wall
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 40
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

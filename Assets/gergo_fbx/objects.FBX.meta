@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 439a9f3654cae0f47870266a27661fa5
+timeCreated: 1464897072
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: AC main body
+    100002: AC misc
+    100004: AC pipes
+    100006: AC plate
+    100008: Basket
+    100010: Basket_MeshPart0
+    100012: Basket_MeshPart1
+    100014: brep_1
+    100016: brep_2
+    100018: brep_3
+    100020: brep_4
+    100022: brep_5
+    100024: brep_6
+    100026: brep_7
+    100028: Bust
+    100030: Cable bones00
+    100032: Cable bones01
+    100034: Cable bones02
+    100036: Cable bones03
+    100038: Cable bones04
+    100040: Cable bones05
+    100042: Cable bones06
+    100044: Cable bones07
+    100046: Cable bones08
+    100048: Cable bones09
+    100050: Cable bones10
+    100052: Cable bones11
+    100054: Cable bones12
+    100056: Cable IK Chain
+    100058: Cable moving
+    100060: CableStatic00
+    100062: CableStatic01
+    100064: Cut-Extrude20
+    100066: Cut-Extrude20 1
+    100068: Drone
+    100070: //RootNode
+    100072: shell_10
+    100074: shell_11
+    100076: shell_12
+    100078: shell_13
+    100080: shell_14
+    100082: shell_15
+    100084: shell_2
+    100086: shell_3
+    100088: shell_4
+    100090: shell_5
+    100092: shell_6
+    100094: shell_7
+    100096: shell_8
+    100098: shell_9
+    100100: TRM_SRF
+    100102: Vase
+    100104: Zsemle
+    400000: AC main body
+    400002: AC misc
+    400004: AC pipes
+    400006: AC plate
+    400008: Basket
+    400010: Basket_MeshPart0
+    400012: Basket_MeshPart1
+    400014: brep_1
+    400016: brep_2
+    400018: brep_3
+    400020: brep_4
+    400022: brep_5
+    400024: brep_6
+    400026: brep_7
+    400028: Bust
+    400030: Cable bones00
+    400032: Cable bones01
+    400034: Cable bones02
+    400036: Cable bones03
+    400038: Cable bones04
+    400040: Cable bones05
+    400042: Cable bones06
+    400044: Cable bones07
+    400046: Cable bones08
+    400048: Cable bones09
+    400050: Cable bones10
+    400052: Cable bones11
+    400054: Cable bones12
+    400056: Cable IK Chain
+    400058: Cable moving
+    400060: CableStatic00
+    400062: CableStatic01
+    400064: Cut-Extrude20
+    400066: Cut-Extrude20 1
+    400068: Drone
+    400070: //RootNode
+    400072: shell_10
+    400074: shell_11
+    400076: shell_12
+    400078: shell_13
+    400080: shell_14
+    400082: shell_15
+    400084: shell_2
+    400086: shell_3
+    400088: shell_4
+    400090: shell_5
+    400092: shell_6
+    400094: shell_7
+    400096: shell_8
+    400098: shell_9
+    400100: TRM_SRF
+    400102: Vase
+    400104: Zsemle
+    2300000: AC main body
+    2300002: AC misc
+    2300004: AC pipes
+    2300006: AC plate
+    2300008: Basket_MeshPart0
+    2300010: Basket_MeshPart1
+    2300012: brep_1
+    2300014: brep_2
+    2300016: brep_3
+    2300018: brep_4
+    2300020: brep_5
+    2300022: brep_6
+    2300024: brep_7
+    2300026: Bust
+    2300028: CableStatic00
+    2300030: CableStatic01
+    2300032: Cut-Extrude20
+    2300034: Cut-Extrude20 1
+    2300036: shell_10
+    2300038: shell_11
+    2300040: shell_12
+    2300042: shell_13
+    2300044: shell_14
+    2300046: shell_15
+    2300048: shell_2
+    2300050: shell_3
+    2300052: shell_4
+    2300054: shell_5
+    2300056: shell_6
+    2300058: shell_7
+    2300060: shell_8
+    2300062: shell_9
+    2300064: TRM_SRF
+    2300066: Vase
+    2300068: Zsemle
+    3300000: AC main body
+    3300002: AC misc
+    3300004: AC pipes
+    3300006: AC plate
+    3300008: Basket_MeshPart0
+    3300010: Basket_MeshPart1
+    3300012: brep_1
+    3300014: brep_2
+    3300016: brep_3
+    3300018: brep_4
+    3300020: brep_5
+    3300022: brep_6
+    3300024: brep_7
+    3300026: Bust
+    3300028: CableStatic00
+    3300030: CableStatic01
+    3300032: Cut-Extrude20
+    3300034: Cut-Extrude20 1
+    3300036: shell_10
+    3300038: shell_11
+    3300040: shell_12
+    3300042: shell_13
+    3300044: shell_14
+    3300046: shell_15
+    3300048: shell_2
+    3300050: shell_3
+    3300052: shell_4
+    3300054: shell_5
+    3300056: shell_6
+    3300058: shell_7
+    3300060: shell_8
+    3300062: shell_9
+    3300064: TRM_SRF
+    3300066: Vase
+    3300068: Zsemle
+    4300000: CableStatic01
+    4300002: CableStatic00
+    4300004: Vase
+    4300006: Cable moving
+    4300008: shell_13
+    4300010: shell_15
+    4300012: Cut-Extrude20
+    4300014: shell_14
+    4300016: shell_10
+    4300018: shell_11
+    4300020: shell_12
+    4300022: shell_9
+    4300024: brep_2
+    4300026: brep_3
+    4300028: brep_5
+    4300030: brep_4
+    4300032: brep_1
+    4300034: brep_6
+    4300036: brep_7
+    4300038: shell_4
+    4300040: shell_5
+    4300042: shell_6
+    4300044: shell_3
+    4300046: shell_7
+    4300048: shell_8
+    4300050: Cut-Extrude20
+    4300052: TRM_SRF
+    4300054: shell_2
+    4300056: Bust
+    4300058: AC plate
+    4300060: AC pipes
+    4300062: AC misc
+    4300064: AC main body
+    4300066: Basket_MeshPart0
+    4300068: Basket_MeshPart1
+    4300070: Zsemle
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cable moving
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
