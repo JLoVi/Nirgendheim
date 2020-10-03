@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 
 public class ActISceneTwo : MonoBehaviour {
     /// <summary>
@@ -48,25 +50,13 @@ public class ActISceneTwo : MonoBehaviour {
 
 	public int adj;
 
-    public GameObject oImage;
-
-    public GameObject xImage;
-
-    public GameObject triImage;
-
-    
-
-
-
 
     //ID
 
     public static float iDNum;
 	// Use this for initialization
 	void Start () {
-        oImage.SetActive(false);
-        xImage.SetActive(false);
-        triImage.SetActive(false);
+     
 
         body2.SetActive (false);
 		
@@ -89,15 +79,14 @@ public class ActISceneTwo : MonoBehaviour {
 
 		}
 
-		if (del == true && Input.GetKey (KeyCode.Joystick1Button1)) {
+		if (del == true && Input.GetKey (GamepadController.instance.controlList.deleteBodyControl)) {
 
 			body1.SetActive (false);
-
 
 		}
 
 
-		if (add == true && Input.GetKey (KeyCode.Joystick1Button2)) {
+		if (add == true && Input.GetKey (GamepadController.instance.controlList.addBodyControl)) {
 
 			body2.SetActive (true);
 
@@ -108,19 +97,19 @@ public class ActISceneTwo : MonoBehaviour {
             iDnumdisplay.text = "ID: " +iDNum;
             
 
-            
-
 
         }
 
-		if (noesc == true && Input.GetKey (KeyCode.Joystick1Button3)) {
+		if (noesc == true && Input.GetKey (GamepadController.instance.controlList.meetPetControl)) {
 
 			stopz = true;
 
 			StopAllCoroutines();
 
-            Application.LoadLevel("actIScene3");
-		}
+
+            SceneManager.LoadScene("actIScene3");
+
+        }
 	
 	}
 
@@ -153,9 +142,10 @@ public class ActISceneTwo : MonoBehaviour {
 
 			yield return new WaitForSeconds (1f);
 
-			txt.text = "TO DELETE THE BODY ";
-       
-            xImage.SetActive(true);
+			
+
+            string s = string.Format("USE <color=#00ff00ff>{0}</color> TO DELETE THE BODY", GamepadController.instance.controlList.deleteBodyName);
+            txt.text = s;
 
 
             yield return new WaitForSeconds (5f);
@@ -163,7 +153,7 @@ public class ActISceneTwo : MonoBehaviour {
 			txt.text = "  ";
 
            
-            xImage.SetActive(false);
+         
 
             add = true;
 
@@ -172,15 +162,16 @@ public class ActISceneTwo : MonoBehaviour {
 			ask (bodyc);
 
 			yield return new WaitForSeconds (2f);
-				txt.text = "TO ADD A BODY ";
+		
 
-            oImage.SetActive(true);
-            
+            s = string.Format("USE <color=#00ff00ff>{0}</color> TO ADD A BODY", GamepadController.instance.controlList.addBodyName);
+            txt.text = s;
+
             yield return new WaitForSeconds (5f);
 
 			txt.text = "  ";
 
-            oImage.SetActive(false);
+          
            
 
             yield return new WaitForSeconds (10f);
@@ -199,24 +190,24 @@ public class ActISceneTwo : MonoBehaviour {
 			txt.text = " YOUR PET WILL MISS YOU ";
             ask(enterZona);
 
-            yield return new WaitForSeconds (5f);
+            yield return new WaitForSeconds (6f);
 			
-			txt.text = "TO MEET YOUR PET BEFORE YOU CONTINUE";
+            s = string.Format("PRESS <color=#00ff00ff>{0}</color> TO MEET YOUR PET BEFORE YOU CONTINUE", GamepadController.instance.controlList.meetPetName);
+            txt.text = s;
             noesc = true;
 
-            triImage.SetActive(true);
 
-            yield return new WaitForSeconds (4f);
+            yield return new WaitForSeconds (6f);
 			
 			txt.text = " ";
-            triImage.SetActive(false);
+          
 
-
-            yield return new WaitForSeconds (8f);
+            yield return new WaitForSeconds (6f);
 
             //your pet is unhappy if you dont stay so this loads the unhappy scene before entering the zona. you didn't want to play so your pet is unhappy now.
 
-            Application.LoadLevel("act II"); //azutan majd zona kell
+         
+            SceneManager.LoadScene("act II");
 
             change = false;
 			

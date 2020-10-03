@@ -177,7 +177,7 @@ public class ActISceneOne : MonoBehaviour {
 
             yield return new WaitForSeconds (5f);
 
-			txt.text = "YOUR PET DROPPED YOUR PHONE"; //do something?
+			txt.text = "YOUR PET DROPPED YOUR CONTROLLER"; //do something?
             // here change animation
 
 			yield return new WaitForSeconds (5f);

@@ -80,10 +80,21 @@ public class GamepadController : MonoBehaviour
 
                 controlList.closeReopenName = "X";
 
+                controlList.deleteBodyName = "X";
+
+                controlList.addBodyName = "A";
+
+                controlList.meetPetName = "Y";
+
                 if (Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsEditor)
                 {
                     controlList.spaceTimeControl = KeyCode.Joystick1Button0;
                     controlList.closeReopenControl = KeyCode.Joystick1Button2;
+                    controlList.deleteBodyControl = KeyCode.Joystick1Button2;
+                    controlList.addBodyControl = KeyCode.Joystick1Button0;
+                    controlList.meetPetControl = KeyCode.Joystick1Button3;
+
+
 
                 }
 
@@ -91,10 +102,14 @@ public class GamepadController : MonoBehaviour
                 {
                     controlList.spaceTimeControl = KeyCode.Joystick1Button16;
                     controlList.closeReopenControl = KeyCode.Joystick1Button18;
+                    controlList.deleteBodyControl = KeyCode.Joystick1Button18;
+                    controlList.addBodyControl = KeyCode.Joystick1Button16;
+                    controlList.meetPetControl = KeyCode.Joystick1Button19;
+
 
                 }
 
-               
+
                 break;
 
             case GamePadEnum.PS4Controller:
@@ -109,6 +124,15 @@ public class GamepadController : MonoBehaviour
                 controlList.closeReopenControl = KeyCode.Joystick1Button1;
                 controlList.closeReopenName = "X";
 
+                controlList.deleteBodyControl = KeyCode.Joystick1Button1;
+                controlList.deleteBodyName = "X";
+
+                controlList.addBodyControl = KeyCode.Joystick1Button2;
+                controlList.addBodyName = "CIRCLE";
+
+                controlList.meetPetControl = KeyCode.Joystick1Button3;
+                controlList.meetPetName = "TRIANGLE";
+
                 break;
             case GamePadEnum.Computer:
                 controlList.mainMenuButton = "M";
@@ -122,6 +146,14 @@ public class GamepadController : MonoBehaviour
                 controlList.closeReopenName = "X";
                 controlList.closeReopenControl = KeyCode.X;
 
+                controlList.deleteBodyControl = KeyCode.B;
+                controlList.deleteBodyName = "B";
+
+                controlList.addBodyControl = KeyCode.A;
+                controlList.addBodyName = "A";
+
+                controlList.meetPetControl = KeyCode.P;
+                controlList.meetPetName = "P";
 
                 break;
             default:
@@ -136,7 +168,15 @@ public class GamepadController : MonoBehaviour
                 controlList.closeReopenName = "X";
                 controlList.closeReopenControl = KeyCode.X;
 
+                controlList.deleteBodyControl = KeyCode.B;
+                controlList.deleteBodyName = "B";
 
+
+                controlList.addBodyControl = KeyCode.A;
+                controlList.addBodyName = "A";
+
+                controlList.meetPetControl = KeyCode.P;
+                controlList.meetPetName = "P";
 
                 break;
         }

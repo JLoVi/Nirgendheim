@@ -16,4 +16,13 @@ public class ControlList : ScriptableObject
     public KeyCode closeReopenControl;
     public string closeReopenName;
 
+    public KeyCode deleteBodyControl;
+    public string deleteBodyName;
+
+    public KeyCode addBodyControl;
+    public string addBodyName;
+
+    public KeyCode meetPetControl;
+    public string meetPetName;
+
 }
