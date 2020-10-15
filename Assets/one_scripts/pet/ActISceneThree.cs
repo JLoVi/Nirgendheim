@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ActISceneThree : MonoBehaviour {
 
@@ -61,17 +62,11 @@ public class ActISceneThree : MonoBehaviour {
     public Color color1 = Color.green;
     public Color color2 = Color.blue;
 
-    public GameObject sqareImage;
-    public GameObject sqareImage2;
-    public GameObject triImage;
-
-
+ 
     // Use this for initialization
     void Start () {
 
-        sqareImage.SetActive(false);
-        sqareImage2.SetActive(false);
-        triImage.SetActive(false);
+      
 
         coroutineStarted = false;
         yes = false;
@@ -93,8 +88,6 @@ public class ActISceneThree : MonoBehaviour {
         se.AddListener(SubmitInput);
         input.onEndEdit = se;
 
-
-        
 
 		StartCoroutine("MyEvent");
 	}
@@ -118,32 +111,17 @@ public class ActISceneThree : MonoBehaviour {
 		if (change == false && yes ==true) {
 
             bg = true;
-            sqareImage.SetActive(false);
-            sqareImage2.SetActive(false);
+           
             instructions.text = "CONNECTING " + yourName + " TO THE PORTS";
 
 			Rigidbody gameObjectsRigidBody = part.AddComponent<Rigidbody>();
-
-			Invoke ("FreeFall", 8);
-
-          
-
-
+            
+            Invoke ("FreeFall", 8);
 
         }
 
-       
 
-        /*if (change == false && no == true){
-			
-			txt.text = "GAME OVER " + yourName;
-
-			Invoke ("ChangeToYes",7);
-			
-			
-		}*/
-
-        if (continueGame ==true && Input.GetKeyDown(KeyCode.Joystick1Button3)){
+        if (continueGame ==true && Input.GetKeyDown(GamepadController.instance.controlList.meetPetControl)){
             bg = true;
             instructions.text = "CONNECTING " + yourName + " TO THE PORTS";
             Invoke("FreeFall", 8);
@@ -151,21 +129,15 @@ public class ActISceneThree : MonoBehaviour {
 
 
 
-        if (Input.GetKeyDown(KeyCode.Joystick1Button1)){
+        //  if (Input.GetKeyDown(GamepadController.instance.controlList.submitControl)){
+        if (Input.GetKeyDown(GamepadController.instance.controlList.submitControl))
+        {
             se = new InputField.SubmitEvent();
             se.AddListener(SubmitInput);
             input.onEndEdit = se;
         }
 
-
-
-
-
-
-
     }
-
-	
 
 
 	void ask (AudioClip aud) {
@@ -231,34 +203,28 @@ public class ActISceneThree : MonoBehaviour {
 
 			yield return new WaitForSeconds (5f);
 			txt.text = "  ";
-            instructions.text = " TO SUBMIT";
-            sqareImage.SetActive(true);
+            string s = string.Format("USE <color=#00ff00ff>{0}</color> TO SUBMIT", GamepadController.instance.controlList.submitName);
+            instructions.text = s;
+
 
             yield return new WaitForSeconds (8f);
             inputField.SetActive(false);
 			ask (realname);
-            sqareImage.SetActive(false);
+           
             instructions.text = " ";
 
             yield return new WaitForSeconds (4f);
             yesno.SetActive(true);
             
             yield return new WaitForSeconds(2f);
-            instructions.text = "USE ARROW KEYS TO SELECT YOUR ANSWER THEN           TO SUBMIT";
-            sqareImage2.SetActive(true);
-            
+            //instructions.text = "USE ARROW KEYS TO SELECT YOUR ANSWER THEN           TO SUBMIT";
 
-           
-
-            
-            // txt.text = " 'Y' or 'N' ";
-
+            s = string.Format("USE <color=#00ff00ff>{0}</color> TO SELECT YOUR ANSWER THEN <color=#00ff00ff>{1}</color> TO SUBMIT ", GamepadController.instance.controlList.navigationName, GamepadController.instance.controlList.submitName);
+            instructions.text = s;
 
             change = false;
 
-            //change = !change;
-
-           
+            
 
 
 		}
@@ -273,8 +239,7 @@ public class ActISceneThree : MonoBehaviour {
             yesno.SetActive(false);
             gameover.text = "GAME OVER " + "\n" + yourName;
             instructions.text = yourName;
-            sqareImage.SetActive(false);
-            sqareImage2.SetActive(false);
+          
             ask(notsure);
 
             yield return new WaitForSeconds(4f);
@@ -285,9 +250,9 @@ public class ActISceneThree : MonoBehaviour {
 
             yield return new WaitForSeconds(4f);
             ask(continueif);
-            instructions.text = " TO CONTINUE";
-            triImage.SetActive(true);
-
+          //  instructions.text = " TO CONTINUE";
+            string s = string.Format("PRESS <color=#00ff00ff>{0}</color> TO CONTINUE", GamepadController.instance.controlList.meetPetName);
+            instructions.text = s;
 
 
         }
@@ -297,7 +262,8 @@ public class ActISceneThree : MonoBehaviour {
 
 	void FreeFall() {
 
-		Application.LoadLevel ("ActIScene4");
+		//Application.LoadLevel ("ActIScene4");
+        SceneManager.LoadScene("ActIScene4");
 	}
 
 	private IEnumerator turnthree()

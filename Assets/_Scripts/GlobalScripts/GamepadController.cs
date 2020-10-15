@@ -86,6 +86,10 @@ public class GamepadController : MonoBehaviour
 
                 controlList.meetPetName = "Y";
 
+                controlList.submitName = "A";
+
+                controlList.navigationName = "THE JOYSTICK";
+
                 if (Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsEditor)
                 {
                     controlList.spaceTimeControl = KeyCode.Joystick1Button0;
@@ -93,7 +97,7 @@ public class GamepadController : MonoBehaviour
                     controlList.deleteBodyControl = KeyCode.Joystick1Button2;
                     controlList.addBodyControl = KeyCode.Joystick1Button0;
                     controlList.meetPetControl = KeyCode.Joystick1Button3;
-
+                    controlList.submitControl = KeyCode.Joystick1Button0;
 
 
                 }
@@ -105,6 +109,8 @@ public class GamepadController : MonoBehaviour
                     controlList.deleteBodyControl = KeyCode.Joystick1Button18;
                     controlList.addBodyControl = KeyCode.Joystick1Button16;
                     controlList.meetPetControl = KeyCode.Joystick1Button19;
+                    controlList.submitControl = KeyCode.Joystick1Button16;
+
 
 
                 }
@@ -133,6 +139,12 @@ public class GamepadController : MonoBehaviour
                 controlList.meetPetControl = KeyCode.Joystick1Button3;
                 controlList.meetPetName = "TRIANGLE";
 
+                controlList.submitControl = KeyCode.Joystick1Button0;
+                controlList.submitName = "SQUARE";
+
+                controlList.navigationName = "THE JOYSTICK";
+
+
                 break;
             case GamePadEnum.Computer:
                 controlList.mainMenuButton = "M";
@@ -154,6 +166,12 @@ public class GamepadController : MonoBehaviour
 
                 controlList.meetPetControl = KeyCode.P;
                 controlList.meetPetName = "P";
+
+                controlList.submitControl = KeyCode.Return;
+                controlList.submitName = "ENTER";
+
+                controlList.navigationName = "THE ARROW KEYS";
+
 
                 break;
             default:
@@ -177,6 +195,12 @@ public class GamepadController : MonoBehaviour
 
                 controlList.meetPetControl = KeyCode.P;
                 controlList.meetPetName = "P";
+
+                controlList.submitControl = KeyCode.Return;
+                controlList.submitName = "ENTER";
+
+                controlList.navigationName = "THE ARROW KEYS";
+
 
                 break;
         }

@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SelectableButton : MonoBehaviour
 {
-    public void OnEnable()
+    public void Start()
     {
         GetComponent<Selectable>().Select();
     }

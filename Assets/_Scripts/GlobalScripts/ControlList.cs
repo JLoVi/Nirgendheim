@@ -25,4 +25,8 @@ public class ControlList : ScriptableObject
     public KeyCode meetPetControl;
     public string meetPetName;
 
+    public KeyCode submitControl;
+    public string submitName;
+
+    public string navigationName;
 }

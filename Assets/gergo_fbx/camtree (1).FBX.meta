@@ -1,84 +1,238 @@
 fileFormatVersion: 2
 guid: 5368780b9fcfe7a46bcfd265b6951f66
-timeCreated: 1464892218
-licenseType: Free
 ModelImporter:
-  serializedVersion: 19
-  fileIDToRecycleName:
-    100000: Bone052
-    100002: Bone053
-    100004: Camera bolts
-    100006: Camera fixture
-    100008: Camera lens
-    100010: Camera lens1
-    100012: Camera moving body
-    100014: //RootNode
-    100016: Circle001
-    100018: Fake tree
-    100020: IK Chain004
-    400000: Bone052
-    400002: Bone053
-    400004: Camera bolts
-    400006: Camera fixture
-    400008: Camera lens
-    400010: Camera lens1
-    400012: Camera moving body
-    400014: //RootNode
-    400016: Circle001
-    400018: Fake tree
-    400020: IK Chain004
-    2300000: Camera bolts
-    2300002: Camera fixture
-    2300004: Fake tree
-    3300000: Camera bolts
-    3300002: Camera fixture
-    3300004: Fake tree
-    4300000: Fake tree
-    4300002: Camera fixture
-    4300004: Camera bolts
-    4300006: Camera lens
-    4300008: Camera lens1
-    4300010: Camera moving body
-    7400000: Take 001
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Camera lens
-    13700002: Camera lens1
-    13700004: Camera moving body
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bone052
+  - first:
+      1: 100002
+    second: Bone053
+  - first:
+      1: 100004
+    second: Camera bolts
+  - first:
+      1: 100006
+    second: Camera fixture
+  - first:
+      1: 100008
+    second: Camera lens
+  - first:
+      1: 100010
+    second: Camera lens1
+  - first:
+      1: 100012
+    second: Camera moving body
+  - first:
+      1: 100014
+    second: //RootNode
+  - first:
+      1: 100016
+    second: Circle001
+  - first:
+      1: 100018
+    second: Fake tree
+  - first:
+      1: 100020
+    second: IK Chain004
+  - first:
+      4: 400000
+    second: Bone052
+  - first:
+      4: 400002
+    second: Bone053
+  - first:
+      4: 400004
+    second: Camera bolts
+  - first:
+      4: 400006
+    second: Camera fixture
+  - first:
+      4: 400008
+    second: Camera lens
+  - first:
+      4: 400010
+    second: Camera lens1
+  - first:
+      4: 400012
+    second: Camera moving body
+  - first:
+      4: 400014
+    second: //RootNode
+  - first:
+      4: 400016
+    second: Circle001
+  - first:
+      4: 400018
+    second: Fake tree
+  - first:
+      4: 400020
+    second: IK Chain004
+  - first:
+      23: 2300000
+    second: Camera bolts
+  - first:
+      23: 2300002
+    second: Camera fixture
+  - first:
+      23: 2300004
+    second: Fake tree
+  - first:
+      33: 3300000
+    second: Camera bolts
+  - first:
+      33: 3300002
+    second: Camera fixture
+  - first:
+      33: 3300004
+    second: Fake tree
+  - first:
+      43: 4300000
+    second: Fake tree
+  - first:
+      43: 4300002
+    second: Camera fixture
+  - first:
+      43: 4300004
+    second: Camera bolts
+  - first:
+      43: 4300006
+    second: Camera lens
+  - first:
+      43: 4300008
+    second: Camera lens1
+  - first:
+      43: 4300010
+    second: Camera moving body
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Camera lens
+  - first:
+      137: 13700002
+    second: Camera lens1
+  - first:
+      137: 13700004
+    second: Camera moving body
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Camera bolts, camera moving body
+    second: {fileID: 2100000, guid: 5f59a77e539daa94484debe744d04bd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Camera fixture, camera moving body
+    second: {fileID: 2100000, guid: 2b8984e1e97387b49b152bfedaf48f06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Camera lens
+    second: {fileID: 2100000, guid: 09548594c28b2e04295a7e3c11aacc1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Camera lens1
+    second: {fileID: 2100000, guid: 6fb5dbfc9412daf47b76e5ec2af773a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Camera moving body (rubber lens holder)
+    second: {fileID: 2100000, guid: 8298edcff89bce54da29436ae0d08145, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faketree
+    second: {fileID: 2100000, guid: 9be5c86b7e3e13247a3a91817fe5bb73, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-    resampleRotations: 1
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
     animationWrapMode: 3
     extraExposedTransformPaths: []
-    clipAnimations: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1200
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 10
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -88,9 +242,14 @@ ModelImporter:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
+    serializedVersion: 3
     human: []
     skeleton: []
     armTwist: 0.5
@@ -100,11 +259,16 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 10
     rootMotionBoneName: 
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 1
   humanoidOversampling: 1
+  avatarSetup: 0
   additionalBone: 0
   userData: 
   assetBundleName: 
