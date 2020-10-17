@@ -28,7 +28,7 @@ public class NirgenManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+
 
         if (isPaused)
         {
@@ -41,22 +41,24 @@ public class NirgenManager : MonoBehaviour
 
         if (Input.GetKeyDown(controlList.mainMenuInputMAC) ||
             Input.GetKeyDown(controlList.mainMenuInputPC))
-            {
+        {
+
             
-                SwitchPause();
-            }
+            SwitchPause();
+        }
     }
 
     void PauseGame(bool state)
     {
         if (state)
         {
-
+           
             Time.timeScale = 0.1f; //paused
         }
 
         else
         {
+            Debug.Log("dfsdf");
             Time.timeScale = 1.0f; //unpaused
         }
 
