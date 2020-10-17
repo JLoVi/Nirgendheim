@@ -29,9 +29,6 @@ public class AskForId : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        
-
-       
         inputelements.SetActive(false);
         inputpanel.SetActive(false);
     }
@@ -40,12 +37,19 @@ public class AskForId : MonoBehaviour
     void Update()
     {
         idNumber = ActISceneTwo.iDNum.ToString();
+        //Debug.Log(input.text);
+        if(NirgenManager.instance.wasPaused == true)
+        {
+    //        Debug.Log("was paused");
+            input.ActivateInputField();
+
+        }
         if (input.text == idNumber)
         {
             Debug.Log("you can pass");
             fenbroken.SetActive(true);
             fenwhole.SetActive(false);
-            inputInstructions.text = "YOU CAN PASS" + ActISceneThree.yourName;
+            inputInstructions.text = "YOU CAN PASS!" + ActISceneThree.yourName;
         }
         else
         {
@@ -53,8 +57,8 @@ public class AskForId : MonoBehaviour
         }
     }
     void OnTriggerEnter(Collider other)
-    {
-        if (other.name == "FPSController ps4")
+    { 
+        if (other.name == "FPSController")
         {
             audioso.PlayOneShot(borderaud);
             inputpanel.SetActive(true);
@@ -65,16 +69,16 @@ public class AskForId : MonoBehaviour
             card.SetActive(false);
             inputtosetactive.SetActive(true);
             input.ActivateInputField();
-            inputInstructions.text = " ID REQUIRED. Press OPTIONS if you need to view your ID again" + ActISceneThree.yourName ;
+           // inputInstructions.text = " ID REQUIRED. Press OPTIONS if you need to view your ID again" + ActISceneThree.yourName ;
+            string s = string.Format("ID REQUIRED. Press <color=#00ff00ff>{0}</color> if you need to view your ID again", GamepadController.instance.controlList.mainMenuButton);
+            inputInstructions.text = s;
 
-
-            
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.name == "FPSController ps4")
+        if (other.name == "FPSController")
         {
             
             inputelements.SetActive(false);

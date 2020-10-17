@@ -90,6 +90,8 @@ public class GamepadController : MonoBehaviour
 
                 controlList.navigationName = "THE JOYSTICK";
 
+                controlList.dialogueXname = "X";
+
                 if (Application.platform == RuntimePlatform.WindowsPlayer || Application.platform == RuntimePlatform.WindowsEditor)
                 {
                     controlList.spaceTimeControl = KeyCode.Joystick1Button0;
@@ -98,7 +100,7 @@ public class GamepadController : MonoBehaviour
                     controlList.addBodyControl = KeyCode.Joystick1Button0;
                     controlList.meetPetControl = KeyCode.Joystick1Button3;
                     controlList.submitControl = KeyCode.Joystick1Button0;
-
+                    controlList.dialoogueXcontrol = KeyCode.Joystick1Button2;
 
                 }
 
@@ -110,7 +112,7 @@ public class GamepadController : MonoBehaviour
                     controlList.addBodyControl = KeyCode.Joystick1Button16;
                     controlList.meetPetControl = KeyCode.Joystick1Button19;
                     controlList.submitControl = KeyCode.Joystick1Button16;
-
+                    controlList.dialoogueXcontrol = KeyCode.Joystick1Button18;
 
 
                 }
@@ -144,6 +146,9 @@ public class GamepadController : MonoBehaviour
 
                 controlList.navigationName = "THE JOYSTICK";
 
+                controlList.dialoogueXcontrol = KeyCode.Joystick1Button1;
+                controlList.dialogueXname = "X";
+
 
                 break;
             case GamePadEnum.Computer:
@@ -171,6 +176,10 @@ public class GamepadController : MonoBehaviour
                 controlList.submitName = "ENTER";
 
                 controlList.navigationName = "THE ARROW KEYS";
+
+                controlList.dialoogueXcontrol = KeyCode.X;
+                controlList.dialogueXname = "X";
+
 
 
                 break;
@@ -200,6 +209,9 @@ public class GamepadController : MonoBehaviour
                 controlList.submitName = "ENTER";
 
                 controlList.navigationName = "THE ARROW KEYS";
+
+                controlList.dialoogueXcontrol = KeyCode.X;
+                controlList.dialogueXname = "X";
 
 
                 break;

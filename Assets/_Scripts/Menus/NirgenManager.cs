@@ -13,8 +13,16 @@ public class NirgenManager : MonoBehaviour
     public ControlList controlList;
 
     public bool isPaused;
+    public bool wasPaused;
 
     public static string idNumber;
+
+    public static NirgenManager instance;
+
+    private void Awake()
+    {
+        instance = this;
+    }
 
     void Start()
     {
@@ -42,8 +50,6 @@ public class NirgenManager : MonoBehaviour
         if (Input.GetKeyDown(controlList.mainMenuInputMAC) ||
             Input.GetKeyDown(controlList.mainMenuInputPC))
         {
-
-            
             SwitchPause();
         }
     }
@@ -58,7 +64,6 @@ public class NirgenManager : MonoBehaviour
 
         else
         {
-            Debug.Log("dfsdf");
             Time.timeScale = 1.0f; //unpaused
         }
 
@@ -71,6 +76,7 @@ public class NirgenManager : MonoBehaviour
         if (isPaused)
         {
             isPaused = false;
+            wasPaused = true;
         }
         else
         {

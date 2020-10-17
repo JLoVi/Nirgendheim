@@ -1,20 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class loadAct3 : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-
     void OnTriggerEnter()
     {
-        Application.LoadLevel("ACT III");
+      //  Application.LoadLevel("ACT III");
+        SceneManager.LoadScene("ACT III");
     }
 }

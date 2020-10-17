@@ -26,7 +26,7 @@ public class ActivateTextAtLine : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.name == "FPSController ps4") {
+        if (other.name == "FPSController") {
             dialogueBoxManager.ReloadScript(theText);
             dialogueBoxManager.currentLine = startLine;
             dialogueBoxManager.endAtLine = endLine;

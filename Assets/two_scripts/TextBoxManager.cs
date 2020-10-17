@@ -17,7 +17,7 @@ public class TextBoxManager : MonoBehaviour
 
     public Text theText;
     //
-    public GameObject answerBox;
+  //  public GameObject answerBox;
 
     public Button[] answerText;
     //
@@ -52,13 +52,13 @@ public class TextBoxManager : MonoBehaviour
     /// </summary>
     /// 
 
-    public GameObject mainCanvas;
+  //  public GameObject mainCanvas;
 
-    public GameObject pausedCanvas;
+  //  public GameObject pausedCanvas;
 
     public Text pausedMenutext;
 
-    public bool isPaused;
+   // public bool isPaused;
 
     public GameObject chrono;
     public GameObject headimg;
@@ -73,14 +73,14 @@ public class TextBoxManager : MonoBehaviour
     void Start()
     {
        
-        pausedCanvas.SetActive(false);
-        mainCanvas.SetActive(true);
+       // pausedCanvas.SetActive(false);
+      //  mainCanvas.SetActive(true);
         
         player = FindObjectOfType<CharacterController>();
 
         DisableBox(textBox);
         DisableBox(inputimgBox);
-        DisableBox(answerBox);
+   //     DisableBox(answerBox);
         DisableBox(instructionBox);
         chrono.SetActive(false);
         headimg.SetActive(false);
@@ -109,7 +109,7 @@ public class TextBoxManager : MonoBehaviour
     }
     void Update()
     {
-        if (isPaused)
+       /* if (isPaused)
         {
             PauseGame(true);
             if (chrono.activeSelf== true)
@@ -130,39 +130,13 @@ public class TextBoxManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Joystick1Button9))
         {
             SwitchPause();
-        }
+        }*/
 
 
     }
 
-    void PauseGame(bool state)
-    {
-        if (state)
-        {
+  
 
-            Time.timeScale = 0.1f; //paused
-        }
-
-        else
-        {
-            Time.timeScale = 1.0f; //unpaused
-        }
-
-        pausedCanvas.SetActive(state);
-        mainCanvas.SetActive(!state);
-    }
-
-    public void SwitchPause()
-    {
-        if (isPaused)
-        {
-            isPaused = false;
-        }
-        else
-        {
-            isPaused = true;
-        }
-    }
 
 
    

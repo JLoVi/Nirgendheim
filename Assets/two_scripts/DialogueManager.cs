@@ -68,7 +68,7 @@ public class DialogueManager : MonoBehaviour {
      //   dialogueText.text = textLines[currentLine];
         
 
-        if (Input.GetKeyDown(KeyCode.Joystick1Button1))
+        if (Input.GetKeyDown(GamepadController.instance.controlList.dialoogueXcontrol))
         {
 
             if(!isTyping) { 

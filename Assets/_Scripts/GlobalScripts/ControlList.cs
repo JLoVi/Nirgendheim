@@ -29,4 +29,7 @@ public class ControlList : ScriptableObject
     public string submitName;
 
     public string navigationName;
+
+    public string dialogueXname;
+    public KeyCode dialoogueXcontrol;
 }
