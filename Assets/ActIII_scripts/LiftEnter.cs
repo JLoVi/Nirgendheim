@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.AI;
 
-public class LiftEnter : MonoBehaviour {
+public class LiftEnter : MonoBehaviour
+{
 
     public AudioSource ambienceOne;
     public AudioSource ambienceTwo;
@@ -16,15 +18,20 @@ public class LiftEnter : MonoBehaviour {
     public Transform position1;
     public Transform position2;
     public Vector3 newPosition;
-   
+
     public float smooth;
 
 
     public bool enteredLift;
 
-    public GameObject FirstPlayer;
+    //   public GameObject FirstPlayer;
 
-    public GameObject secondNewPlayer;
+    //    public GameObject secondNewPlayer;
+
+
+    public GameObject roamPlayer;
+    public Transform playerPos;
+
 
     public bool hasStarted;
 
@@ -33,17 +40,17 @@ public class LiftEnter : MonoBehaviour {
     public GameObject canvasesLent;
 
 
-    public GameManager canvasManager;
+    //public ViewGameManager canvasManager;
 
 
     // Use this for initialization
     void Start()
     {
-        canvasManager=FindObjectOfType<GameManager>();
+      //  canvasManager = FindObjectOfType<ViewGameManager>();
 
         hasStarted = false;
         enteredLift = false;
-        secondNewPlayer.SetActive(false);
+        //   secondNewPlayer.SetActive(false);
     }
 
     // Update is called once per frame
@@ -58,13 +65,14 @@ public class LiftEnter : MonoBehaviour {
     {
         //
 
-        if (enteredLift && movingPlatform != null ) {
+        if (enteredLift && movingPlatform != null)
+        {
             movingPlatform.position = Vector3.Lerp(movingPlatform.position, position2.position, smooth * Time.deltaTime);
 
-            foreach (GameObject canv in canvasManager.canvases)
+          /*  foreach (GameObject canv in canvasManager.canvases)
             {
                 canv.SetActive(false);
-            }
+            }*/
 
 
 
@@ -74,15 +82,22 @@ public class LiftEnter : MonoBehaviour {
     void OnTriggerEnter()
     {
         enteredLift = true;
-        Debug.Log(enteredLift+"enteredlift");
-        if (FirstPlayer.activeSelf ==true){ 
-        FirstPlayer.SetActive(false);
-        }
-        if(secondNewPlayer.activeSelf == false) { 
-            secondNewPlayer.SetActive(true);
+        Debug.Log(enteredLift + "enteredlift");
+        /*  if (FirstPlayer.activeSelf ==true){ 
+          FirstPlayer.SetActive(false);
+          }
+          if(secondNewPlayer.activeSelf == false) { 
+              secondNewPlayer.SetActive(true);
 
-           
-        }
+
+          }*/
+        roamPlayer.GetComponent<navmesh>().enabled = false;
+        roamPlayer.GetComponent<NavMeshAgent>().enabled = false;
+        roamPlayer.transform.parent = movingPlatform;
+        roamPlayer.transform.position = playerPos.position;
+
+        canvasesLent.SetActive(false);
+
         infoView.text = " Target: the View";
         audiooo.PlayOneShot(oneDay);
         ambienceOne.volume = Mathf.Lerp(1f, 0f, time);
@@ -111,7 +126,7 @@ public class LiftEnter : MonoBehaviour {
         }
     }
 
-   
+
 
 
 

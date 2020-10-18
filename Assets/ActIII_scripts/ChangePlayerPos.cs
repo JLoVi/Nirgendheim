@@ -11,11 +11,11 @@ public class ChangePlayerPos : MonoBehaviour {
 
     public GameObject canvasToActivate;
 
-    public GameManager canvasManager;
+    public ViewGameManager canvasManager;
 
     // Use this for initialization
     void Start () {
-        canvasManager = FindObjectOfType<GameManager>();
+        canvasManager = FindObjectOfType<ViewGameManager>();
 
     }
 

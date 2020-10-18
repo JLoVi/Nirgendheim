@@ -3,41 +3,43 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.Audio;
 using System.Collections.Generic;
-public class GameManager : MonoBehaviour {
+public class ViewGameManager : MonoBehaviour
+{
 
     /// <summary>
     /// /camobjects
     /// </summary>
     /// 
 
-    public Button[] prevbuttons;
 
+
+    //public Button[] prevbuttons;
 
     public GameObject[] canvases;
 
     //public Camera[] cameras;
 
     public GameObject player;
+
     public GameObject[] destinations;
     public int randomDestIndex;
     public int arraylength;
     public Transform finalDestsshard;
 
 
-    public GameObject start;
+  //  public GameObject start;
 
-    public GameObject ScrollBar;
+//    public GameObject ScrollBar;
 
     public List<GameObject> cameras = new List<GameObject>();
-
 
     public navmesh targetscript;
 
     public UnityEngine.AI.NavMeshAgent playerAgent;
 
-    public List<Transform> targets= new List<Transform>();
+    public List<Transform> targets = new List<Transform>();
 
-  
+
 
     /// <summary>
     /// audioobjects
@@ -51,27 +53,30 @@ public class GameManager : MonoBehaviour {
 
     void Start()
     {
+        
 
         targetscript = FindObjectOfType<navmesh>();
         //player.transform.position = start.transform.position;
-        arraylength = destinations.Length -1;
+        arraylength = destinations.Length - 1;
 
-        
+
         // cameras.Add(new GameObject.Find("Camera_Shard")));
 
         //Turn all cameras off, except the first default one
         foreach (GameObject cam in cameras)
         {
             cam.gameObject.SetActive(false);
+            
         }
 
-     
+
         targetchange = false;
 
         //change destination to shard
-        if (targetscript != null) { 
+        if (targetscript != null)
+        {
 
-        targetInst.text = targetscript.target.gameObject.name;
+            targetInst.text = targetscript.target.gameObject.name;
         }
         else
         {
@@ -85,18 +90,21 @@ public class GameManager : MonoBehaviour {
         // randomDestIndex = destinations.Length;
         //Random.Range(0, destinations.Length);
 
-
-        
-
     }
 
-
-    public void teleport()
+    public void Blabli()
     {
+        Debug.Log("bla button pressed");
+    }
+
+    public void Teleport()
+    {
+
+        Debug.Log("teleport");
 
         targetchange = !targetchange;
         //important change player pos dont delete
-      
+
 
         Trans_to_snapshot(act3_sounscape1[Random.Range(0, act3_sounscape1.Length - 1)], 0.6f);
 
@@ -110,18 +118,19 @@ public class GameManager : MonoBehaviour {
 
         // if (cameras.Length > 0)
         //{
-        if( arraylength > -1) { 
+        if (arraylength > -1)
+        {
             cameras[randomDestIndex].SetActive(true);
             Debug.Log("Camera with name: " + cameras[randomDestIndex].GetComponent<Camera>().name + ", is now enabled");
             cameras[randomDestIndex].AddComponent<Rigidbody>();
-        cameras.RemoveAt(randomDestIndex);
+            cameras.RemoveAt(randomDestIndex);
 
 
-        targetscript.target = targets[randomDestIndex];
-        targetInst.text = targetscript.target.gameObject.name;
-        targets.RemoveAt(randomDestIndex);
+            targetscript.target = targets[randomDestIndex];
+            targetInst.text = targetscript.target.gameObject.name;
+            targets.RemoveAt(randomDestIndex);
 
-        arraylength--;
+            arraylength--;
         }
 
         else
@@ -150,10 +159,10 @@ public class GameManager : MonoBehaviour {
     {
 
 
-       /* for (i = 0; i < randomDestIndex, i++)
-        {
-            Destroy()
-        }*/
+        /* for (i = 0; i < randomDestIndex, i++)
+         {
+             Destroy()
+         }*/
 
         Debug.Log("disable me");
     }
@@ -164,12 +173,12 @@ public class GameManager : MonoBehaviour {
     }
 
 
-   
-    public void ScrollBarOn ()
+
+  /*  public void ScrollBarOn()
     {
         ScrollBar.SetActive(true);
- 
-    }
+
+    }*/
 
 
     void Trans_to_snapshot(AudioMixerSnapshot snapshot, float time_to_transition)
