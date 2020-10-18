@@ -12,6 +12,7 @@ public class ViewGameManager : MonoBehaviour
     /// 
 
 
+        //this is a half-guided tour of nirgendheim. scroll through the text and press A to investigate
 
     //public Button[] prevbuttons;
 
@@ -51,9 +52,14 @@ public class ViewGameManager : MonoBehaviour
     public Text targetInst;
     public bool targetchange;
 
+    public static bool shardReached;
+
+    public bool canTeleport;
+
     void Start()
     {
-        
+        shardReached = false;
+        canTeleport = true;
 
         targetscript = FindObjectOfType<navmesh>();
         //player.transform.position = start.transform.position;
@@ -73,22 +79,19 @@ public class ViewGameManager : MonoBehaviour
         targetchange = false;
 
         //change destination to shard
-        if (targetscript != null)
-        {
-
-            targetInst.text = targetscript.target.gameObject.name;
-        }
-        else
-        {
-            targetInst.text = "The View";
-        }
+        string s = string.Format("This is a half-guided tour of Nirgendheim. Scroll through the text and press <color=#00ff00ff>{0}</color> to investigate", GamepadController.instance.controlList.submitName);
+        targetInst.text = s;
 
     }
 
-    void update()
+    void Update()
     {
         // randomDestIndex = destinations.Length;
         //Random.Range(0, destinations.Length);
+        if (arraylength > -1 && !shardReached && canTeleport && Input.GetKey(GamepadController.instance.controlList.submitControl))
+        {
+            Teleport();
+        }
 
     }
 
@@ -96,7 +99,8 @@ public class ViewGameManager : MonoBehaviour
 
     public void Teleport()
     {
-
+        canTeleport = false;
+        StartCoroutine(SetCanTeleport());
         Debug.Log("teleport");
 
         targetchange = !targetchange;
@@ -185,5 +189,9 @@ public class ViewGameManager : MonoBehaviour
 
     }
 
-
+    public IEnumerator SetCanTeleport()
+    {
+        yield return new WaitForSeconds(10f);
+        canTeleport = true;
+    }
 }

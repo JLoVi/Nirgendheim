@@ -53,7 +53,9 @@ public class MovingLift : MonoBehaviour
     void SetPlayers()
     {
         cryonixPlayer.SetActive(true);
+        if(roamPlayer!= null) { 
         roamPlayer.SetActive(false);
+        }
 
     }
 }

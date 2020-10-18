@@ -95,7 +95,7 @@ public class LiftEnter : MonoBehaviour
         roamPlayer.GetComponent<NavMeshAgent>().enabled = false;
         roamPlayer.transform.parent = movingPlatform;
         roamPlayer.transform.position = playerPos.position;
-
+        ViewGameManager.shardReached = true;
         canvasesLent.SetActive(false);
 
         infoView.text = " Target: the View";
@@ -106,7 +106,7 @@ public class LiftEnter : MonoBehaviour
 
         StartCoroutine("FadeInSound");
 
-
+        
         // Destroy(gameObject);
 
     }
