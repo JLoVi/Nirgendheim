@@ -92,10 +92,7 @@ public class ViewGameManager : MonoBehaviour
 
     }
 
-    public void Blabli()
-    {
-        Debug.Log("bla button pressed");
-    }
+   
 
     public void Teleport()
     {
