@@ -37,7 +37,7 @@ public class LiftEnter : MonoBehaviour
 
     public Text infoView;
 
-    public GameObject canvasesLent;
+ //   public GameObject canvasesLent;
 
 
     //public ViewGameManager canvasManager;
@@ -96,7 +96,7 @@ public class LiftEnter : MonoBehaviour
         roamPlayer.transform.parent = movingPlatform;
         roamPlayer.transform.position = playerPos.position;
         ViewGameManager.shardReached = true;
-        canvasesLent.SetActive(false);
+        
 
         infoView.text = " Target: the View";
         audiooo.PlayOneShot(oneDay);

@@ -92,6 +92,7 @@ public class ViewGameManager : MonoBehaviour
         {
             Teleport();
         }
+       
 
     }
 
@@ -137,6 +138,10 @@ public class ViewGameManager : MonoBehaviour
         else
         {
             targetscript.target = finalDestsshard;
+            foreach (GameObject canvas in canvases)
+            {
+                canvas.SetActive(false);
+            }
         }
         /*for (int i = 0; i< destinations.Length-1; i++) {
             arraylength = i;
@@ -191,7 +196,7 @@ public class ViewGameManager : MonoBehaviour
 
     public IEnumerator SetCanTeleport()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(6f);
         canTeleport = true;
     }
 }
